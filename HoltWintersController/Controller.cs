@@ -1,0 +1,38 @@
+﻿using System.Linq;
+using FileManager;
+
+namespace HoltWintersController
+{
+    public class Controller : IController
+    {
+        public double[,] Data { get; private set; }
+        public double[] Sum { get; private set; }
+        public string Filter => _fileManager.Filter;
+
+        private readonly IFileManager _fileManager;
+
+
+        public Controller() : this(new CSVManager()) { }
+
+        public Controller(IFileManager fileManager)
+        {
+            _fileManager = fileManager;
+        }
+
+        public void FillData(string path)
+        {
+            double[,] data = _fileManager.OpenAndParse(path);
+            Data = new double[6, data.GetLength(1)];
+            for (int i = 0; i < Data.GetLength(1); i++)
+            {
+                Data[0, i] = i + 1;
+                Data[1, i] = data[0, i];
+                Data[2, i] = data[1, i];
+                Data[3, i] = data[0, i] * data[0, i];
+                Data[4, i] = data[1, i] * data[1, i];
+                Data[5, i] = data[1, i] * data[0, i];
+            }
+        }
+
+    }
+}

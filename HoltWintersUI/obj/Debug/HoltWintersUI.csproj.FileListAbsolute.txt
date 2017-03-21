@@ -1,0 +1,13 @@
+D:\Projects\Diplom\HoltWintersUI\bin\Debug\HoltWintersUI.exe.config
+D:\Projects\Diplom\HoltWintersUI\bin\Debug\HoltWintersUI.exe
+D:\Projects\Diplom\HoltWintersUI\bin\Debug\HoltWintersUI.pdb
+D:\Projects\Diplom\HoltWintersUI\bin\Debug\HoltWintersController.dll
+D:\Projects\Diplom\HoltWintersUI\bin\Debug\FileManager.dll
+D:\Projects\Diplom\HoltWintersUI\bin\Debug\HoltWintersController.pdb
+D:\Projects\Diplom\HoltWintersUI\bin\Debug\FileManager.pdb
+D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.csprojResolveAssemblyReference.cache
+D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.MainForm.resources
+D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.Properties.Resources.resources
+D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.csproj.GenerateResource.Cache
+D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.exe
+D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.pdb

@@ -1,0 +1,7 @@
+D:\Projects\Diplom\HoltWintersController\bin\Debug\HoltWintersController.dll
+D:\Projects\Diplom\HoltWintersController\bin\Debug\HoltWintersController.pdb
+D:\Projects\Diplom\HoltWintersController\bin\Debug\FileManager.dll
+D:\Projects\Diplom\HoltWintersController\bin\Debug\FileManager.pdb
+D:\Projects\Diplom\HoltWintersController\obj\Debug\HoltWintersController.csprojResolveAssemblyReference.cache
+D:\Projects\Diplom\HoltWintersController\obj\Debug\HoltWintersController.dll
+D:\Projects\Diplom\HoltWintersController\obj\Debug\HoltWintersController.pdb
