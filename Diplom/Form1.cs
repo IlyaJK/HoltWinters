@@ -73,6 +73,7 @@ namespace Diplom
             pages.Add(tabPage14);
             pages.Add(tabPage15);
             HideAllPages();
+          
 
         }
 

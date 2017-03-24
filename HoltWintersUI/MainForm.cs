@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
 using HoltWintersController;
 
@@ -16,6 +17,9 @@ namespace HoltWintersUI
             _container = container;
             _pages = new List<TabPage>();
             InitializeComponent();
+            СalculationDGV.AllowUserToAddRows = false;
+            СalculationDGV.AllowUserToAddRows = false;
+
         }
 
         private void OpenBT_Click(object sender, System.EventArgs e)
@@ -26,13 +30,15 @@ namespace HoltWintersUI
             {
                 _container.FillData(OpenFileDialog.FileName);
                 double[,] data = _container.Data;
-                SourceDataDGV.RowCount = data.GetLength(0);
-                SourceDataDGV.ColumnCount = data.GetLength(1);
-                for (int i = 0; i < 9; ++i)
+               
+                for (int i = 0; i < data.GetLength(1)/2; i++)
                 {
-                    for (int j = 0; j < data.GetLength(0); ++j)
+                    СalculationDGV.Rows.Add();
+                    for (int j = 0; j < data.GetLength(0); j++)
                     {
+
                         СalculationDGV.Rows[i].Cells[j].Value = data[j, i];
+                        
                     }
                 }
             }
