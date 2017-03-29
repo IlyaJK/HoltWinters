@@ -1,4 +1,4 @@
-﻿namespace HoltWintersUI
+﻿namespace HoltWintersUI.Page
 {
     partial class StepSeventh
     {

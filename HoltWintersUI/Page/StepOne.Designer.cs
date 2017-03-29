@@ -1,4 +1,4 @@
-﻿namespace Panel.HoltWintersUI
+﻿namespace HoltWintersUI.Page
 {
     partial class StepOne
     {
@@ -175,7 +175,6 @@
             this.Controls.Add(this.NextBT);
             this.Name = "UserControl1";
             this.Size = new System.Drawing.Size(1014, 456);
-            this.Load += new System.EventHandler(this.UserControl1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.СalculationDGV)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SourceDataDGV)).EndInit();
             this.ResumeLayout(false);

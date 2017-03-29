@@ -51,60 +51,60 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Panel\StepEighth.cs">
+    <Compile Include="Page\StepEighth.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Panel\StepEighth.Designer.cs">
+    <Compile Include="Page\StepEighth.Designer.cs">
       <DependentUpon>StepEighth.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Panel\StepOne.cs">
+    <Compile Include="Page\StepOne.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Panel\StepOne.Designer.cs">
+    <Compile Include="Page\StepOne.Designer.cs">
       <DependentUpon>StepOne.cs</DependentUpon>
     </Compile>
-    <Compile Include="Panel\StepFifth.cs">
+    <Compile Include="Page\StepFifth.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Panel\StepFifth.Designer.cs">
+    <Compile Include="Page\StepFifth.Designer.cs">
       <DependentUpon>StepFifth.cs</DependentUpon>
     </Compile>
-    <Compile Include="Panel\StepFourth.cs">
+    <Compile Include="Page\StepFourth.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Panel\StepFourth.Designer.cs">
+    <Compile Include="Page\StepFourth.Designer.cs">
       <DependentUpon>StepFourth.cs</DependentUpon>
     </Compile>
-    <Compile Include="Panel\StepSecond.cs">
+    <Compile Include="Page\StepSecond.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Panel\StepSecond.Designer.cs">
+    <Compile Include="Page\StepSecond.Designer.cs">
       <DependentUpon>StepSecond.cs</DependentUpon>
     </Compile>
-    <Compile Include="Panel\StepSeventh.cs">
+    <Compile Include="Page\StepSeventh.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Panel\StepSeventh.Designer.cs">
+    <Compile Include="Page\StepSeventh.Designer.cs">
       <DependentUpon>StepSeventh.cs</DependentUpon>
     </Compile>
-    <Compile Include="Panel\StepSixth.cs">
+    <Compile Include="Page\StepSixth.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Panel\StepSixth.Designer.cs">
+    <Compile Include="Page\StepSixth.Designer.cs">
       <DependentUpon>StepSixth.cs</DependentUpon>
     </Compile>
-    <Compile Include="Panel\StepThird.cs">
+    <Compile Include="Page\StepThird.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Panel\StepThird.Designer.cs">
+    <Compile Include="Page\StepThird.Designer.cs">
       <DependentUpon>StepThird.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Panel\StepEighth.resx">
+    <EmbeddedResource Include="Page\StepEighth.resx">
       <DependentUpon>StepEighth.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -116,25 +116,25 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Panel\StepOne.resx">
+    <EmbeddedResource Include="Page\StepOne.resx">
       <DependentUpon>StepOne.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Panel\StepFifth.resx">
+    <EmbeddedResource Include="Page\StepFifth.resx">
       <DependentUpon>StepFifth.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Panel\StepFourth.resx">
+    <EmbeddedResource Include="Page\StepFourth.resx">
       <DependentUpon>StepFourth.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Panel\StepSecond.resx">
+    <EmbeddedResource Include="Page\StepSecond.resx">
       <DependentUpon>StepSecond.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Panel\StepSeventh.resx">
+    <EmbeddedResource Include="Page\StepSeventh.resx">
       <DependentUpon>StepSeventh.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Panel\StepSixth.resx">
+    <EmbeddedResource Include="Page\StepSixth.resx">
       <DependentUpon>StepSixth.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Panel\StepThird.resx">
+    <EmbeddedResource Include="Page\StepThird.resx">
       <DependentUpon>StepThird.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">

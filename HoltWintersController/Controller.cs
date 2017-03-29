@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using FileManager;
+﻿using FileManager;
 
 namespace HoltWintersController
 {

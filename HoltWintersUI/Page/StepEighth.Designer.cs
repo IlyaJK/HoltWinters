@@ -1,4 +1,4 @@
-﻿namespace HoltWintersUI.Panel
+﻿namespace HoltWintersUI.Page
 {
     partial class StepEighth
     {
