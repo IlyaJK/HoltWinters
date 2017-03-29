@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.TabControl = new System.Windows.Forms.TabControl();
+            this.StepTC = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.СalculationDGV = new System.Windows.Forms.DataGridView();
@@ -57,30 +57,11 @@
             this.richTextBox6 = new System.Windows.Forms.RichTextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.richTextBox10 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox9 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
             this.NextBT3 = new System.Windows.Forms.Button();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.NextBT4 = new System.Windows.Forms.Button();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.NextBT5 = new System.Windows.Forms.Button();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.NextBT6 = new System.Windows.Forms.Button();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.tabPage10 = new System.Windows.Forms.TabPage();
-            this.tabPage11 = new System.Windows.Forms.TabPage();
-            this.tabPage12 = new System.Windows.Forms.TabPage();
-            this.tabPage13 = new System.Windows.Forms.TabPage();
-            this.tabPage14 = new System.Windows.Forms.TabPage();
-            this.tabPage15 = new System.Windows.Forms.TabPage();
-            this.OpenFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.NextBT7 = new System.Windows.Forms.Button();
-            this.NextBT8 = new System.Windows.Forms.Button();
-            this.NextBT9 = new System.Windows.Forms.Button();
-            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox9 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox10 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox11 = new System.Windows.Forms.RichTextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -88,7 +69,12 @@
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.richTextBox11 = new System.Windows.Forms.RichTextBox();
+            this.NextBT4 = new System.Windows.Forms.Button();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
             this.richTextBox12 = new System.Windows.Forms.RichTextBox();
+            this.NextBT5 = new System.Windows.Forms.Button();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -96,7 +82,21 @@
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TabControl.SuspendLayout();
+            this.NextBT6 = new System.Windows.Forms.Button();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.NextBT7 = new System.Windows.Forms.Button();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.NextBT8 = new System.Windows.Forms.Button();
+            this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.NextBT9 = new System.Windows.Forms.Button();
+            this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.tabPage12 = new System.Windows.Forms.TabPage();
+            this.tabPage13 = new System.Windows.Forms.TabPage();
+            this.tabPage14 = new System.Windows.Forms.TabPage();
+            this.tabPage15 = new System.Windows.Forms.TabPage();
+            this.OpenFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.StepTC.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.СalculationDGV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SourceDataDGV)).BeginInit();
@@ -104,39 +104,39 @@
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabPage6.SuspendLayout();
             this.tabPage7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.tabPage8.SuspendLayout();
             this.tabPage9.SuspendLayout();
             this.tabPage10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
-            // TabControl
+            // StepTC
             // 
-            this.TabControl.Controls.Add(this.tabPage1);
-            this.TabControl.Controls.Add(this.tabPage2);
-            this.TabControl.Controls.Add(this.tabPage3);
-            this.TabControl.Controls.Add(this.tabPage4);
-            this.TabControl.Controls.Add(this.tabPage5);
-            this.TabControl.Controls.Add(this.tabPage6);
-            this.TabControl.Controls.Add(this.tabPage7);
-            this.TabControl.Controls.Add(this.tabPage8);
-            this.TabControl.Controls.Add(this.tabPage9);
-            this.TabControl.Controls.Add(this.tabPage10);
-            this.TabControl.Controls.Add(this.tabPage11);
-            this.TabControl.Controls.Add(this.tabPage12);
-            this.TabControl.Controls.Add(this.tabPage13);
-            this.TabControl.Controls.Add(this.tabPage14);
-            this.TabControl.Controls.Add(this.tabPage15);
-            this.TabControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TabControl.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.TabControl.Location = new System.Drawing.Point(0, 0);
-            this.TabControl.Name = "TabControl";
-            this.TabControl.SelectedIndex = 0;
-            this.TabControl.Size = new System.Drawing.Size(1052, 497);
-            this.TabControl.TabIndex = 0;
+            this.StepTC.Controls.Add(this.tabPage1);
+            this.StepTC.Controls.Add(this.tabPage2);
+            this.StepTC.Controls.Add(this.tabPage3);
+            this.StepTC.Controls.Add(this.tabPage4);
+            this.StepTC.Controls.Add(this.tabPage5);
+            this.StepTC.Controls.Add(this.tabPage6);
+            this.StepTC.Controls.Add(this.tabPage7);
+            this.StepTC.Controls.Add(this.tabPage8);
+            this.StepTC.Controls.Add(this.tabPage9);
+            this.StepTC.Controls.Add(this.tabPage10);
+            this.StepTC.Controls.Add(this.tabPage11);
+            this.StepTC.Controls.Add(this.tabPage12);
+            this.StepTC.Controls.Add(this.tabPage13);
+            this.StepTC.Controls.Add(this.tabPage14);
+            this.StepTC.Controls.Add(this.tabPage15);
+            this.StepTC.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.StepTC.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.StepTC.Location = new System.Drawing.Point(0, 0);
+            this.StepTC.Name = "StepTC";
+            this.StepTC.SelectedIndex = 0;
+            this.StepTC.Size = new System.Drawing.Size(1052, 497);
+            this.StepTC.TabIndex = 0;
             // 
             // tabPage1
             // 
@@ -225,7 +225,7 @@
             this.Column2});
             this.SourceDataDGV.Location = new System.Drawing.Point(22, 70);
             this.SourceDataDGV.Name = "SourceDataDGV";
-            this.SourceDataDGV.Size = new System.Drawing.Size(243, 377);
+            this.SourceDataDGV.Size = new System.Drawing.Size(243, 375);
             this.SourceDataDGV.TabIndex = 7;
             // 
             // Column1
@@ -249,6 +249,7 @@
             this.ClearBT.TabIndex = 6;
             this.ClearBT.Text = "Очистить";
             this.ClearBT.UseVisualStyleBackColor = true;
+            this.ClearBT.Click += new System.EventHandler(this.ClearBT_Click);
             // 
             // OpenBT
             // 
@@ -271,6 +272,7 @@
             this.NextBT.TabIndex = 4;
             this.NextBT.Text = "Дальше";
             this.NextBT.UseVisualStyleBackColor = true;
+            this.NextBT.Click += new System.EventHandler(this.NextBT_Click);
             // 
             // tabPage2
             // 
@@ -420,6 +422,34 @@
             this.tabPage4.Text = "tabPage4";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // richTextBox10
+            // 
+            this.richTextBox10.Location = new System.Drawing.Point(416, 35);
+            this.richTextBox10.Name = "richTextBox10";
+            this.richTextBox10.Size = new System.Drawing.Size(461, 206);
+            this.richTextBox10.TabIndex = 3;
+            this.richTextBox10.Text = "";
+            // 
+            // richTextBox9
+            // 
+            this.richTextBox9.Location = new System.Drawing.Point(126, 145);
+            this.richTextBox9.Name = "richTextBox9";
+            this.richTextBox9.Size = new System.Drawing.Size(137, 96);
+            this.richTextBox9.TabIndex = 2;
+            this.richTextBox9.Text = "";
+            // 
+            // richTextBox8
+            // 
+            this.richTextBox8.BackColor = System.Drawing.SystemColors.Window;
+            this.richTextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox8.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.richTextBox8.Location = new System.Drawing.Point(126, 35);
+            this.richTextBox8.Name = "richTextBox8";
+            this.richTextBox8.ReadOnly = true;
+            this.richTextBox8.Size = new System.Drawing.Size(137, 65);
+            this.richTextBox8.TabIndex = 1;
+            this.richTextBox8.Text = "Параметры сглаживания";
+            // 
             // NextBT3
             // 
             this.NextBT3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -441,204 +471,6 @@
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "tabPage5";
             this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // NextBT4
-            // 
-            this.NextBT4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NextBT4.Location = new System.Drawing.Point(834, 373);
-            this.NextBT4.Name = "NextBT4";
-            this.NextBT4.Size = new System.Drawing.Size(143, 49);
-            this.NextBT4.TabIndex = 1;
-            this.NextBT4.Text = "Дальше";
-            this.NextBT4.UseVisualStyleBackColor = true;
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.Controls.Add(this.richTextBox12);
-            this.tabPage6.Controls.Add(this.NextBT5);
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(1044, 471);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "tabPage6";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // NextBT5
-            // 
-            this.NextBT5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NextBT5.Location = new System.Drawing.Point(834, 373);
-            this.NextBT5.Name = "NextBT5";
-            this.NextBT5.Size = new System.Drawing.Size(143, 49);
-            this.NextBT5.TabIndex = 1;
-            this.NextBT5.Text = "Дальше";
-            this.NextBT5.UseVisualStyleBackColor = true;
-            // 
-            // tabPage7
-            // 
-            this.tabPage7.Controls.Add(this.dataGridView2);
-            this.tabPage7.Controls.Add(this.NextBT6);
-            this.tabPage7.Location = new System.Drawing.Point(4, 22);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(1044, 471);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "tabPage7";
-            this.tabPage7.UseVisualStyleBackColor = true;
-            // 
-            // NextBT6
-            // 
-            this.NextBT6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NextBT6.Location = new System.Drawing.Point(834, 373);
-            this.NextBT6.Name = "NextBT6";
-            this.NextBT6.Size = new System.Drawing.Size(143, 49);
-            this.NextBT6.TabIndex = 1;
-            this.NextBT6.Text = "Дальше";
-            this.NextBT6.UseVisualStyleBackColor = true;
-            // 
-            // tabPage8
-            // 
-            this.tabPage8.Controls.Add(this.NextBT7);
-            this.tabPage8.Location = new System.Drawing.Point(4, 22);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(1044, 471);
-            this.tabPage8.TabIndex = 7;
-            this.tabPage8.Text = "tabPage8";
-            this.tabPage8.UseVisualStyleBackColor = true;
-            // 
-            // tabPage9
-            // 
-            this.tabPage9.Controls.Add(this.NextBT8);
-            this.tabPage9.Location = new System.Drawing.Point(4, 22);
-            this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Size = new System.Drawing.Size(1044, 471);
-            this.tabPage9.TabIndex = 8;
-            this.tabPage9.Text = "tabPage9";
-            this.tabPage9.UseVisualStyleBackColor = true;
-            // 
-            // tabPage10
-            // 
-            this.tabPage10.Controls.Add(this.NextBT9);
-            this.tabPage10.Location = new System.Drawing.Point(4, 22);
-            this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Size = new System.Drawing.Size(1044, 471);
-            this.tabPage10.TabIndex = 9;
-            this.tabPage10.Text = "tabPage10";
-            this.tabPage10.UseVisualStyleBackColor = true;
-            // 
-            // tabPage11
-            // 
-            this.tabPage11.Location = new System.Drawing.Point(4, 22);
-            this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Size = new System.Drawing.Size(1044, 471);
-            this.tabPage11.TabIndex = 10;
-            this.tabPage11.Text = "tabPage11";
-            this.tabPage11.UseVisualStyleBackColor = true;
-            // 
-            // tabPage12
-            // 
-            this.tabPage12.Location = new System.Drawing.Point(4, 22);
-            this.tabPage12.Name = "tabPage12";
-            this.tabPage12.Size = new System.Drawing.Size(1044, 471);
-            this.tabPage12.TabIndex = 11;
-            this.tabPage12.Text = "tabPage12";
-            this.tabPage12.UseVisualStyleBackColor = true;
-            // 
-            // tabPage13
-            // 
-            this.tabPage13.Location = new System.Drawing.Point(4, 22);
-            this.tabPage13.Name = "tabPage13";
-            this.tabPage13.Size = new System.Drawing.Size(1044, 471);
-            this.tabPage13.TabIndex = 12;
-            this.tabPage13.Text = "tabPage13";
-            this.tabPage13.UseVisualStyleBackColor = true;
-            // 
-            // tabPage14
-            // 
-            this.tabPage14.Location = new System.Drawing.Point(4, 22);
-            this.tabPage14.Name = "tabPage14";
-            this.tabPage14.Size = new System.Drawing.Size(1044, 471);
-            this.tabPage14.TabIndex = 13;
-            this.tabPage14.Text = "tabPage14";
-            this.tabPage14.UseVisualStyleBackColor = true;
-            // 
-            // tabPage15
-            // 
-            this.tabPage15.Location = new System.Drawing.Point(4, 22);
-            this.tabPage15.Name = "tabPage15";
-            this.tabPage15.Size = new System.Drawing.Size(1044, 471);
-            this.tabPage15.TabIndex = 14;
-            this.tabPage15.Text = "tabPage15";
-            this.tabPage15.UseVisualStyleBackColor = true;
-            // 
-            // OpenFileDialog
-            // 
-            this.OpenFileDialog.FileName = "openFileDialog1";
-            // 
-            // NextBT7
-            // 
-            this.NextBT7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NextBT7.Location = new System.Drawing.Point(834, 373);
-            this.NextBT7.Name = "NextBT7";
-            this.NextBT7.Size = new System.Drawing.Size(143, 49);
-            this.NextBT7.TabIndex = 2;
-            this.NextBT7.Text = "Дальше";
-            this.NextBT7.UseVisualStyleBackColor = true;
-            // 
-            // NextBT8
-            // 
-            this.NextBT8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NextBT8.Location = new System.Drawing.Point(834, 373);
-            this.NextBT8.Name = "NextBT8";
-            this.NextBT8.Size = new System.Drawing.Size(143, 49);
-            this.NextBT8.TabIndex = 2;
-            this.NextBT8.Text = "Дальше";
-            this.NextBT8.UseVisualStyleBackColor = true;
-            // 
-            // NextBT9
-            // 
-            this.NextBT9.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NextBT9.Location = new System.Drawing.Point(834, 373);
-            this.NextBT9.Name = "NextBT9";
-            this.NextBT9.Size = new System.Drawing.Size(143, 49);
-            this.NextBT9.TabIndex = 2;
-            this.NextBT9.Text = "Дальше";
-            this.NextBT9.UseVisualStyleBackColor = true;
-            // 
-            // richTextBox8
-            // 
-            this.richTextBox8.BackColor = System.Drawing.SystemColors.Window;
-            this.richTextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox8.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.richTextBox8.Location = new System.Drawing.Point(126, 35);
-            this.richTextBox8.Name = "richTextBox8";
-            this.richTextBox8.ReadOnly = true;
-            this.richTextBox8.Size = new System.Drawing.Size(137, 65);
-            this.richTextBox8.TabIndex = 1;
-            this.richTextBox8.Text = "Параметры сглаживания";
-            // 
-            // richTextBox9
-            // 
-            this.richTextBox9.Location = new System.Drawing.Point(126, 145);
-            this.richTextBox9.Name = "richTextBox9";
-            this.richTextBox9.Size = new System.Drawing.Size(137, 96);
-            this.richTextBox9.TabIndex = 2;
-            this.richTextBox9.Text = "";
-            // 
-            // richTextBox10
-            // 
-            this.richTextBox10.Location = new System.Drawing.Point(416, 35);
-            this.richTextBox10.Name = "richTextBox10";
-            this.richTextBox10.Size = new System.Drawing.Size(461, 206);
-            this.richTextBox10.TabIndex = 3;
-            this.richTextBox10.Text = "";
-            // 
-            // richTextBox11
-            // 
-            this.richTextBox11.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.richTextBox11.Location = new System.Drawing.Point(252, 20);
-            this.richTextBox11.Name = "richTextBox11";
-            this.richTextBox11.Size = new System.Drawing.Size(130, 54);
-            this.richTextBox11.TabIndex = 2;
-            this.richTextBox11.Text = "Результаты вычислений";
             // 
             // dataGridView1
             // 
@@ -691,6 +523,36 @@
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             this.dataGridViewTextBoxColumn6.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
+            // richTextBox11
+            // 
+            this.richTextBox11.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.richTextBox11.Location = new System.Drawing.Point(252, 20);
+            this.richTextBox11.Name = "richTextBox11";
+            this.richTextBox11.Size = new System.Drawing.Size(130, 54);
+            this.richTextBox11.TabIndex = 2;
+            this.richTextBox11.Text = "Результаты вычислений";
+            // 
+            // NextBT4
+            // 
+            this.NextBT4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NextBT4.Location = new System.Drawing.Point(834, 373);
+            this.NextBT4.Name = "NextBT4";
+            this.NextBT4.Size = new System.Drawing.Size(143, 49);
+            this.NextBT4.TabIndex = 1;
+            this.NextBT4.Text = "Дальше";
+            this.NextBT4.UseVisualStyleBackColor = true;
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Controls.Add(this.richTextBox12);
+            this.tabPage6.Controls.Add(this.NextBT5);
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Size = new System.Drawing.Size(1044, 471);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "tabPage6";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
             // richTextBox12
             // 
             this.richTextBox12.BackColor = System.Drawing.SystemColors.Window;
@@ -702,6 +564,27 @@
             this.richTextBox12.Size = new System.Drawing.Size(255, 81);
             this.richTextBox12.TabIndex = 2;
             this.richTextBox12.Text = "График исходных данных (ряд 1) и расчетных значений (ряд 2)";
+            // 
+            // NextBT5
+            // 
+            this.NextBT5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NextBT5.Location = new System.Drawing.Point(834, 373);
+            this.NextBT5.Name = "NextBT5";
+            this.NextBT5.Size = new System.Drawing.Size(143, 49);
+            this.NextBT5.TabIndex = 1;
+            this.NextBT5.Text = "Дальше";
+            this.NextBT5.UseVisualStyleBackColor = true;
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.Controls.Add(this.dataGridView2);
+            this.tabPage7.Controls.Add(this.NextBT6);
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Size = new System.Drawing.Size(1044, 471);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "tabPage7";
+            this.tabPage7.UseVisualStyleBackColor = true;
             // 
             // dataGridView2
             // 
@@ -754,15 +637,134 @@
             this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
             this.dataGridViewTextBoxColumn12.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
+            // NextBT6
+            // 
+            this.NextBT6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NextBT6.Location = new System.Drawing.Point(834, 373);
+            this.NextBT6.Name = "NextBT6";
+            this.NextBT6.Size = new System.Drawing.Size(143, 49);
+            this.NextBT6.TabIndex = 1;
+            this.NextBT6.Text = "Дальше";
+            this.NextBT6.UseVisualStyleBackColor = true;
+            // 
+            // tabPage8
+            // 
+            this.tabPage8.Controls.Add(this.NextBT7);
+            this.tabPage8.Location = new System.Drawing.Point(4, 22);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Size = new System.Drawing.Size(1044, 471);
+            this.tabPage8.TabIndex = 7;
+            this.tabPage8.Text = "tabPage8";
+            this.tabPage8.UseVisualStyleBackColor = true;
+            // 
+            // NextBT7
+            // 
+            this.NextBT7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NextBT7.Location = new System.Drawing.Point(834, 373);
+            this.NextBT7.Name = "NextBT7";
+            this.NextBT7.Size = new System.Drawing.Size(143, 49);
+            this.NextBT7.TabIndex = 2;
+            this.NextBT7.Text = "Дальше";
+            this.NextBT7.UseVisualStyleBackColor = true;
+            // 
+            // tabPage9
+            // 
+            this.tabPage9.Controls.Add(this.NextBT8);
+            this.tabPage9.Location = new System.Drawing.Point(4, 22);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Size = new System.Drawing.Size(1044, 471);
+            this.tabPage9.TabIndex = 8;
+            this.tabPage9.Text = "tabPage9";
+            this.tabPage9.UseVisualStyleBackColor = true;
+            // 
+            // NextBT8
+            // 
+            this.NextBT8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NextBT8.Location = new System.Drawing.Point(834, 373);
+            this.NextBT8.Name = "NextBT8";
+            this.NextBT8.Size = new System.Drawing.Size(143, 49);
+            this.NextBT8.TabIndex = 2;
+            this.NextBT8.Text = "Дальше";
+            this.NextBT8.UseVisualStyleBackColor = true;
+            // 
+            // tabPage10
+            // 
+            this.tabPage10.Controls.Add(this.NextBT9);
+            this.tabPage10.Location = new System.Drawing.Point(4, 22);
+            this.tabPage10.Name = "tabPage10";
+            this.tabPage10.Size = new System.Drawing.Size(1044, 471);
+            this.tabPage10.TabIndex = 9;
+            this.tabPage10.Text = "tabPage10";
+            this.tabPage10.UseVisualStyleBackColor = true;
+            // 
+            // NextBT9
+            // 
+            this.NextBT9.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NextBT9.Location = new System.Drawing.Point(834, 373);
+            this.NextBT9.Name = "NextBT9";
+            this.NextBT9.Size = new System.Drawing.Size(143, 49);
+            this.NextBT9.TabIndex = 2;
+            this.NextBT9.Text = "Дальше";
+            this.NextBT9.UseVisualStyleBackColor = true;
+            // 
+            // tabPage11
+            // 
+            this.tabPage11.Location = new System.Drawing.Point(4, 22);
+            this.tabPage11.Name = "tabPage11";
+            this.tabPage11.Size = new System.Drawing.Size(1044, 471);
+            this.tabPage11.TabIndex = 10;
+            this.tabPage11.Text = "tabPage11";
+            this.tabPage11.UseVisualStyleBackColor = true;
+            // 
+            // tabPage12
+            // 
+            this.tabPage12.Location = new System.Drawing.Point(4, 22);
+            this.tabPage12.Name = "tabPage12";
+            this.tabPage12.Size = new System.Drawing.Size(1044, 471);
+            this.tabPage12.TabIndex = 11;
+            this.tabPage12.Text = "tabPage12";
+            this.tabPage12.UseVisualStyleBackColor = true;
+            // 
+            // tabPage13
+            // 
+            this.tabPage13.Location = new System.Drawing.Point(4, 22);
+            this.tabPage13.Name = "tabPage13";
+            this.tabPage13.Size = new System.Drawing.Size(1044, 471);
+            this.tabPage13.TabIndex = 12;
+            this.tabPage13.Text = "tabPage13";
+            this.tabPage13.UseVisualStyleBackColor = true;
+            // 
+            // tabPage14
+            // 
+            this.tabPage14.Location = new System.Drawing.Point(4, 22);
+            this.tabPage14.Name = "tabPage14";
+            this.tabPage14.Size = new System.Drawing.Size(1044, 471);
+            this.tabPage14.TabIndex = 13;
+            this.tabPage14.Text = "tabPage14";
+            this.tabPage14.UseVisualStyleBackColor = true;
+            // 
+            // tabPage15
+            // 
+            this.tabPage15.Location = new System.Drawing.Point(4, 22);
+            this.tabPage15.Name = "tabPage15";
+            this.tabPage15.Size = new System.Drawing.Size(1044, 471);
+            this.tabPage15.TabIndex = 14;
+            this.tabPage15.Text = "tabPage15";
+            this.tabPage15.UseVisualStyleBackColor = true;
+            // 
+            // OpenFileDialog
+            // 
+            this.OpenFileDialog.FileName = "openFileDialog1";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1052, 497);
-            this.Controls.Add(this.TabControl);
+            this.Controls.Add(this.StepTC);
             this.Name = "MainForm";
             this.Text = "Holt-Winters";
-            this.TabControl.ResumeLayout(false);
+            this.StepTC.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.СalculationDGV)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SourceDataDGV)).EndInit();
@@ -770,20 +772,20 @@
             this.tabPage3.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
             this.tabPage5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabPage6.ResumeLayout(false);
             this.tabPage7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.tabPage8.ResumeLayout(false);
             this.tabPage9.ResumeLayout(false);
             this.tabPage10.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TabControl TabControl;
+        private System.Windows.Forms.TabControl StepTC;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.DataGridView SourceDataDGV;
         private System.Windows.Forms.Button ClearBT;

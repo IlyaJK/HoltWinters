@@ -11,3 +11,4 @@ D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.Properties.Resources.re
 D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.csproj.GenerateResource.Cache
 D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.exe
 D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.pdb
+D:\Projects\Diplom\HoltWintersUI\obj\Debug\Panel.HoltWintersUI.StepOne.resources

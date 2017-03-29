@@ -15,10 +15,15 @@ namespace FileManager
 
         public double[,] OpenAndParse(string path)
         {
-            if (string.IsNullOrEmpty(path)) throw new ArgumentNullException();
+            if (string.IsNullOrEmpty(path))
+                throw new ArgumentNullException();
             string file = Open(path);
-            if (string.IsNullOrEmpty(file)) throw new ArgumentNullException("Считываемый файл пуст");
-            return Parse(file);
+            if (string.IsNullOrEmpty(file))
+                throw new ArgumentNullException("Считываемый файл пуст");
+            double[,] table = Parse(file);
+            if (table.GetLength(0) == 0 || table.GetLength(1) == 0)
+                throw new Exception("Выбран не корректный файл");
+            return table;
         }
 
         private string Open(string path)

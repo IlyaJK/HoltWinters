@@ -51,10 +51,61 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Panel\StepEighth.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel\StepEighth.Designer.cs">
+      <DependentUpon>StepEighth.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Panel\StepOne.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel\StepOne.Designer.cs">
+      <DependentUpon>StepOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\StepFifth.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel\StepFifth.Designer.cs">
+      <DependentUpon>StepFifth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\StepFourth.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel\StepFourth.Designer.cs">
+      <DependentUpon>StepFourth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\StepSecond.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel\StepSecond.Designer.cs">
+      <DependentUpon>StepSecond.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\StepSeventh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel\StepSeventh.Designer.cs">
+      <DependentUpon>StepSeventh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\StepSixth.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel\StepSixth.Designer.cs">
+      <DependentUpon>StepSixth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\StepThird.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel\StepThird.Designer.cs">
+      <DependentUpon>StepThird.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel\StepEighth.resx">
+      <DependentUpon>StepEighth.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,6 +116,27 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Panel\StepOne.resx">
+      <DependentUpon>StepOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel\StepFifth.resx">
+      <DependentUpon>StepFifth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel\StepFourth.resx">
+      <DependentUpon>StepFourth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel\StepSecond.resx">
+      <DependentUpon>StepSecond.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel\StepSeventh.resx">
+      <DependentUpon>StepSeventh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel\StepSixth.resx">
+      <DependentUpon>StepSixth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel\StepThird.resx">
+      <DependentUpon>StepThird.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

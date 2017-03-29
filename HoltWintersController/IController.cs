@@ -6,5 +6,7 @@
         string Filter { get; }
 
         void FillData(string path);
+        double[] GetSum();
+        void Clear();
     }
 }
