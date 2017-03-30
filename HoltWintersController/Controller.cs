@@ -11,7 +11,6 @@ namespace HoltWintersController
 
 
         public Controller() : this(new CSVManager()) { }
-
         public Controller(IFileManager fileManager)
         {
             _fileManager = fileManager;

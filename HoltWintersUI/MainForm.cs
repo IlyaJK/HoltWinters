@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 using HoltWintersController;
+using HoltWintersController.PageController;
+using HoltWintersUI.Page;
 
 namespace HoltWintersUI
 {
@@ -11,7 +13,6 @@ namespace HoltWintersUI
         private readonly List<TabPage> _pages;
         private bool NextEnable
         {
-            get { return NextBT.Enabled; }
             set { NextBT.Enabled = value; }
         }
 
@@ -24,20 +25,19 @@ namespace HoltWintersUI
             InitializeComponent();
             СalculationDGV.AllowUserToAddRows = false;
             SourceDataDGV.AllowUserToAddRows = false;
-            //for (int i = 0; i < 15; i++)
-            //{
-            //    TabPage step = new TabPage("Шаг" + (i + 1));
-            //    step.Controls.Add(new StepOne());
-            //    _pages.Add(step);
-            //    StepTC.TabPages.Add(step);
-            //}
+            for (int i = 0; i < 15; i++)
+            {
+                TabPage step = new TabPage("Шаг" + (i + 1));
+                step.Controls.Add(new StepOne(new StepOneController()));
+                _pages.Add(step);
+                StepTC.TabPages.Add(step);
+            }
 
         }
 
-        private void OpenBT_Click(object sender, System.EventArgs e)
+        private void OpenBT_Click(object sender, EventArgs e)
         {
             OpenFileDialog.Filter = _controller.Filter;
-            OpenFileDialog.Title = "Select File";
             if (OpenFileDialog.ShowDialog() != DialogResult.OK) return;
             Clear();
             _controller.FillData(OpenFileDialog.FileName);

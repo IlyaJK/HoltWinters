@@ -1,11 +1,12 @@
-﻿using System.Windows.Forms;
-using HoltWintersController.StepController;
+﻿using System;
+using System.Windows.Forms;
+using HoltWintersController.PageController;
 
 namespace HoltWintersUI.Page
 {
     public partial class StepOne : UserControl
     {
-        private IStepOneController _controller;
+        private readonly IStepOneController _controller;
 
         public StepOne(IStepOneController container)
         {
@@ -13,6 +14,25 @@ namespace HoltWintersUI.Page
             InitializeComponent();
             СalculationDGV.AllowUserToAddRows = false;
             SourceDataDGV.AllowUserToAddRows = false;
+            Clear();
+        }
+
+        private void OpenClick(object sender, EventArgs e)
+        {
+            Clear();
+        }
+
+        private void ClearClick(object sender, EventArgs e)
+        {
+            Clear();
+        }
+
+        private void Clear()
+        {
+            _controller.Clear();
+            SourceDataDGV.Rows.Clear();
+            СalculationDGV.Rows.Clear();
+            NextBT.Enabled = false;
         }
     }
 }

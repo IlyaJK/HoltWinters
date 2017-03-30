@@ -3,3 +3,8 @@ D:\Projects\Diplom\FileManager\bin\Debug\FileManager.pdb
 D:\Projects\Diplom\FileManager\obj\Debug\FileManager.csprojResolveAssemblyReference.cache
 D:\Projects\Diplom\FileManager\obj\Debug\FileManager.dll
 D:\Projects\Diplom\FileManager\obj\Debug\FileManager.pdb
+C:\Users\illus\OneDrive\Документы\Project\HoltWinters\FileManager\bin\Debug\FileManager.dll
+C:\Users\illus\OneDrive\Документы\Project\HoltWinters\FileManager\bin\Debug\FileManager.pdb
+C:\Users\illus\OneDrive\Документы\Project\HoltWinters\FileManager\obj\Debug\FileManager.csprojResolveAssemblyReference.cache
+C:\Users\illus\OneDrive\Документы\Project\HoltWinters\FileManager\obj\Debug\FileManager.dll
+C:\Users\illus\OneDrive\Документы\Project\HoltWinters\FileManager\obj\Debug\FileManager.pdb

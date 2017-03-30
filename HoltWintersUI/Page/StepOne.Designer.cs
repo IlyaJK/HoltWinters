@@ -141,6 +141,7 @@
             this.ClearBT.TabIndex = 12;
             this.ClearBT.Text = "Очистить";
             this.ClearBT.UseVisualStyleBackColor = true;
+            this.ClearBT.Click += new System.EventHandler(this.ClearClick);
             // 
             // OpenBT
             // 
@@ -151,6 +152,7 @@
             this.OpenBT.TabIndex = 11;
             this.OpenBT.Text = "Обзор";
             this.OpenBT.UseVisualStyleBackColor = true;
+            this.OpenBT.Click += new System.EventHandler(this.OpenClick);
             // 
             // NextBT
             // 
@@ -163,7 +165,7 @@
             this.NextBT.Text = "Дальше";
             this.NextBT.UseVisualStyleBackColor = true;
             // 
-            // UserControl1
+            // StepOne
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -173,7 +175,7 @@
             this.Controls.Add(this.ClearBT);
             this.Controls.Add(this.OpenBT);
             this.Controls.Add(this.NextBT);
-            this.Name = "UserControl1";
+            this.Name = "StepOne";
             this.Size = new System.Drawing.Size(1014, 456);
             ((System.ComponentModel.ISupportInitialize)(this.СalculationDGV)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SourceDataDGV)).EndInit();
