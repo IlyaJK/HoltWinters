@@ -8,3 +8,8 @@ C:\Users\illus\OneDrive\Документы\Project\HoltWinters\FileManager\bin\D
 C:\Users\illus\OneDrive\Документы\Project\HoltWinters\FileManager\obj\Debug\FileManager.csprojResolveAssemblyReference.cache
 C:\Users\illus\OneDrive\Документы\Project\HoltWinters\FileManager\obj\Debug\FileManager.dll
 C:\Users\illus\OneDrive\Документы\Project\HoltWinters\FileManager\obj\Debug\FileManager.pdb
+C:\Users\illusionist\Documents\project\HoltWinters\FileManager\bin\Debug\FileManager.dll
+C:\Users\illusionist\Documents\project\HoltWinters\FileManager\bin\Debug\FileManager.pdb
+C:\Users\illusionist\Documents\project\HoltWinters\FileManager\obj\Debug\FileManager.csprojResolveAssemblyReference.cache
+C:\Users\illusionist\Documents\project\HoltWinters\FileManager\obj\Debug\FileManager.dll
+C:\Users\illusionist\Documents\project\HoltWinters\FileManager\obj\Debug\FileManager.pdb
