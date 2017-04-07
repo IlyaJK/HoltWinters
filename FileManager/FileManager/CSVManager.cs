@@ -13,7 +13,7 @@ namespace FileManager
             Filter = "Files|*.csv";
         }
 
-        public double[,] OpenAndParse(string path)
+        public double[,] GetData(string path)
         {
             if (string.IsNullOrEmpty(path))
                 throw new ArgumentNullException();

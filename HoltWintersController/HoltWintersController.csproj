@@ -42,16 +42,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller.cs" />
-    <Compile Include="DataManager.cs" />
     <Compile Include="IController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PageController\IStepOneController.cs" />
     <Compile Include="PageController\StepOneController.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FileManager\FileManager.csproj">
+    <ProjectReference Include="..\FileManager\HoltWintersModel.csproj">
       <Project>{f94d64a9-2bcc-4238-b382-92af04d23a0c}</Project>
-      <Name>FileManager</Name>
+      <Name>HoltWintersModel</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -19,7 +19,7 @@ namespace HoltWintersController
 
         public void FillData(string path)
         {
-            double[,] data = _fileManager.OpenAndParse(path);
+            double[,] data = _fileManager.GetData(path);
             Data = new double[6, data.GetLength(1)];
             for (int i = 0; i < Data.GetLength(1); i++)
             {

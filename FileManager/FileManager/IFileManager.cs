@@ -4,6 +4,6 @@
     {
         string Filter { get; }
 
-        double[,] OpenAndParse(string path);
+        double[,] GetData(string path);
     }
 }
