@@ -36,7 +36,6 @@
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.richTextBox11 = new System.Windows.Forms.RichTextBox();
-            this.NextBT4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -100,23 +99,12 @@
             this.richTextBox11.TabIndex = 11;
             this.richTextBox11.Text = "Результаты вычислений";
             // 
-            // NextBT4
-            // 
-            this.NextBT4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NextBT4.Location = new System.Drawing.Point(879, 399);
-            this.NextBT4.Name = "NextBT4";
-            this.NextBT4.Size = new System.Drawing.Size(143, 49);
-            this.NextBT4.TabIndex = 10;
-            this.NextBT4.Text = "Дальше";
-            this.NextBT4.UseVisualStyleBackColor = true;
-            // 
             // StepFifth
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.richTextBox11);
-            this.Controls.Add(this.NextBT4);
             this.Name = "StepFifth";
             this.Size = new System.Drawing.Size(1184, 516);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -134,6 +122,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
         private System.Windows.Forms.RichTextBox richTextBox11;
-        private System.Windows.Forms.Button NextBT4;
     }
 }

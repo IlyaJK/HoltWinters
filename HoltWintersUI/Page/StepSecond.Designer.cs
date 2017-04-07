@@ -34,7 +34,6 @@
             this.richTextBox_SystYp = new System.Windows.Forms.RichTextBox();
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.NextBT1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // richTextBox5
@@ -103,16 +102,6 @@
             this.richTextBox2.TabIndex = 8;
             this.richTextBox2.Text = "Система нормальных уравнений примет вид:";
             // 
-            // NextBT1
-            // 
-            this.NextBT1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NextBT1.Location = new System.Drawing.Point(861, 407);
-            this.NextBT1.Name = "NextBT1";
-            this.NextBT1.Size = new System.Drawing.Size(143, 49);
-            this.NextBT1.TabIndex = 7;
-            this.NextBT1.Text = "Дальше";
-            this.NextBT1.UseVisualStyleBackColor = true;
-            // 
             // StepSecond
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -123,7 +112,6 @@
             this.Controls.Add(this.richTextBox_SystYp);
             this.Controls.Add(this.richTextBox3);
             this.Controls.Add(this.richTextBox2);
-            this.Controls.Add(this.NextBT1);
             this.Name = "StepSecond";
             this.Size = new System.Drawing.Size(1221, 536);
             this.ResumeLayout(false);
@@ -138,6 +126,5 @@
         private System.Windows.Forms.RichTextBox richTextBox_SystYp;
         private System.Windows.Forms.RichTextBox richTextBox3;
         private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.Button NextBT1;
     }
 }

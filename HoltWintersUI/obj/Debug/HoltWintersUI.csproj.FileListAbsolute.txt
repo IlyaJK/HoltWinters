@@ -11,7 +11,6 @@ D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.Properties.Resources.re
 D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.csproj.GenerateResource.Cache
 D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.exe
 D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.pdb
-D:\Projects\Diplom\HoltWintersUI\obj\Debug\Panel.HoltWintersUI.StepOne.resources
 C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersUI\bin\Debug\HoltWintersUI.exe.config
 C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersUI\bin\Debug\HoltWintersUI.exe
 C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersUI\bin\Debug\HoltWintersUI.pdb
@@ -54,3 +53,11 @@ C:\Users\illusionist\Documents\project\HoltWinters\HoltWintersUI\obj\Debug\HoltW
 C:\Users\illusionist\Documents\project\HoltWinters\HoltWintersUI\obj\Debug\HoltWintersUI.csproj.GenerateResource.Cache
 C:\Users\illusionist\Documents\project\HoltWinters\HoltWintersUI\obj\Debug\HoltWintersUI.exe
 C:\Users\illusionist\Documents\project\HoltWinters\HoltWintersUI\obj\Debug\HoltWintersUI.pdb
+D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.Page.StepEighth.resources
+D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.Page.StepOne.resources
+D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.Page.StepFifth.resources
+D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.Page.StepFourth.resources
+D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.Page.StepSecond.resources
+D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.Page.StepSeventh.resources
+D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.Page.StepSixth.resources
+D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.Page.StepThird.resources

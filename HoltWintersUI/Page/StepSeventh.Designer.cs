@@ -35,7 +35,6 @@
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NextBT6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -90,22 +89,11 @@
             this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
             this.dataGridViewTextBoxColumn12.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
-            // NextBT6
-            // 
-            this.NextBT6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NextBT6.Location = new System.Drawing.Point(896, 429);
-            this.NextBT6.Name = "NextBT6";
-            this.NextBT6.Size = new System.Drawing.Size(143, 49);
-            this.NextBT6.TabIndex = 11;
-            this.NextBT6.Text = "Дальше";
-            this.NextBT6.UseVisualStyleBackColor = true;
-            // 
             // StepSeventh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.dataGridView2);
-            this.Controls.Add(this.NextBT6);
             this.Name = "StepSeventh";
             this.Size = new System.Drawing.Size(1178, 533);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
@@ -122,6 +110,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
-        private System.Windows.Forms.Button NextBT6;
     }
 }
