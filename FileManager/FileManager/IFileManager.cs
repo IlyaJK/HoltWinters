@@ -1,4 +1,4 @@
-﻿namespace FileManager
+﻿namespace HoltWintersModel.FileManager
 {
     public interface IFileManager
     {

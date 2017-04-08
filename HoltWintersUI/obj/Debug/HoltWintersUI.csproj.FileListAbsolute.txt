@@ -15,9 +15,7 @@ C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersUI\bin
 C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersUI\bin\Debug\HoltWintersUI.exe
 C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersUI\bin\Debug\HoltWintersUI.pdb
 C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersUI\bin\Debug\HoltWintersController.dll
-C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersUI\bin\Debug\FileManager.dll
 C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersUI\bin\Debug\HoltWintersController.pdb
-C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersUI\bin\Debug\FileManager.pdb
 C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersUI\obj\Debug\HoltWintersUI.csprojResolveAssemblyReference.cache
 C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersUI\obj\Debug\HoltWintersUI.MainForm.resources
 C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersUI\obj\Debug\HoltWintersUI.Page.StepEighth.resources
@@ -61,3 +59,5 @@ D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.Page.StepSecond.resourc
 D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.Page.StepSeventh.resources
 D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.Page.StepSixth.resources
 D:\Projects\Diplom\HoltWintersUI\obj\Debug\HoltWintersUI.Page.StepThird.resources
+C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersUI\bin\Debug\HoltWintersModel.dll
+C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersUI\bin\Debug\HoltWintersModel.pdb

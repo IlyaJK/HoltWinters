@@ -1,5 +1,5 @@
-﻿using FileManager;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
+using HoltWintersModel.FileManager;
 
 namespace HoltWintersModel
 {
@@ -17,7 +17,7 @@ namespace HoltWintersModel
 
         public bool LoadData()
         {
-            OpenFileDialog openFile = new OpenFileDialog { Filter = _fileManager.Filter };
+            var openFile = new OpenFileDialog { Filter = _fileManager.Filter };
             if (openFile.ShowDialog() != DialogResult.OK) return false;
             string path = openFile.FileName;
             Data = _fileManager.GetData(path);

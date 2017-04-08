@@ -3,7 +3,7 @@ using HoltWintersUI.Page;
 
 namespace HoltWintersUI
 {
-    public class StapFactory
+    public class StepFactory
     {
         public static StepPage GetStap(int k)
         {

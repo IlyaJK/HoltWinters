@@ -13,5 +13,10 @@ namespace HoltWintersUI.Page
         {
             throw new System.NotImplementedException();
         }
+
+        public override void Clear()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

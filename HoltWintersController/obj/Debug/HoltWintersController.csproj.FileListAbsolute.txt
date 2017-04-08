@@ -7,8 +7,6 @@ D:\Projects\Diplom\HoltWintersController\obj\Debug\HoltWintersController.dll
 D:\Projects\Diplom\HoltWintersController\obj\Debug\HoltWintersController.pdb
 C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersController\bin\Debug\HoltWintersController.dll
 C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersController\bin\Debug\HoltWintersController.pdb
-C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersController\bin\Debug\FileManager.dll
-C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersController\bin\Debug\FileManager.pdb
 C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersController\obj\Debug\HoltWintersController.csprojResolveAssemblyReference.cache
 C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersController\obj\Debug\HoltWintersController.dll
 C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersController\obj\Debug\HoltWintersController.pdb
@@ -19,3 +17,5 @@ C:\Users\illusionist\Documents\project\HoltWinters\HoltWintersController\bin\Deb
 C:\Users\illusionist\Documents\project\HoltWinters\HoltWintersController\obj\Debug\HoltWintersController.csprojResolveAssemblyReference.cache
 C:\Users\illusionist\Documents\project\HoltWinters\HoltWintersController\obj\Debug\HoltWintersController.dll
 C:\Users\illusionist\Documents\project\HoltWinters\HoltWintersController\obj\Debug\HoltWintersController.pdb
+C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersController\bin\Debug\HoltWintersModel.dll
+C:\Users\illus\OneDrive\Документы\Project\HoltWinters\HoltWintersController\bin\Debug\HoltWintersModel.pdb
