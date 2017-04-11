@@ -31,7 +31,6 @@
             this.richTextBox10 = new System.Windows.Forms.RichTextBox();
             this.richTextBox9 = new System.Windows.Forms.RichTextBox();
             this.richTextBox8 = new System.Windows.Forms.RichTextBox();
-            this.NextBT3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // richTextBox10
@@ -62,16 +61,6 @@
             this.richTextBox8.TabIndex = 5;
             this.richTextBox8.Text = "Параметры сглаживания";
             // 
-            // NextBT3
-            // 
-            this.NextBT3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NextBT3.Location = new System.Drawing.Point(827, 401);
-            this.NextBT3.Name = "NextBT3";
-            this.NextBT3.Size = new System.Drawing.Size(143, 49);
-            this.NextBT3.TabIndex = 4;
-            this.NextBT3.Text = "Дальше";
-            this.NextBT3.UseVisualStyleBackColor = true;
-            // 
             // StepFourth
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -79,7 +68,6 @@
             this.Controls.Add(this.richTextBox10);
             this.Controls.Add(this.richTextBox9);
             this.Controls.Add(this.richTextBox8);
-            this.Controls.Add(this.NextBT3);
             this.Name = "StepFourth";
             this.Size = new System.Drawing.Size(1178, 528);
             this.ResumeLayout(false);
@@ -91,6 +79,5 @@
         private System.Windows.Forms.RichTextBox richTextBox10;
         private System.Windows.Forms.RichTextBox richTextBox9;
         private System.Windows.Forms.RichTextBox richTextBox8;
-        private System.Windows.Forms.Button NextBT3;
     }
 }

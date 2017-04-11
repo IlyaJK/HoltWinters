@@ -39,9 +39,6 @@
             this.SourceDataDGV = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ClearBT = new System.Windows.Forms.Button();
-            this.OpenBT = new System.Windows.Forms.Button();
-            this.NextBT = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.СalculationDGV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SourceDataDGV)).BeginInit();
             this.SuspendLayout();
@@ -70,7 +67,7 @@
             this.Column8});
             this.СalculationDGV.Location = new System.Drawing.Point(334, 64);
             this.СalculationDGV.Name = "СalculationDGV";
-            this.СalculationDGV.Size = new System.Drawing.Size(645, 223);
+            this.СalculationDGV.Size = new System.Drawing.Size(645, 375);
             this.СalculationDGV.TabIndex = 14;
             // 
             // Column3
@@ -132,39 +129,6 @@
             this.Column2.Name = "Column2";
             this.Column2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
             // 
-            // ClearBT
-            // 
-            this.ClearBT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ClearBT.Location = new System.Drawing.Point(334, 367);
-            this.ClearBT.Name = "ClearBT";
-            this.ClearBT.Size = new System.Drawing.Size(143, 49);
-            this.ClearBT.TabIndex = 12;
-            this.ClearBT.Text = "Очистить";
-            this.ClearBT.UseVisualStyleBackColor = true;
-            this.ClearBT.Click += new System.EventHandler(this.ClearClick);
-            // 
-            // OpenBT
-            // 
-            this.OpenBT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.OpenBT.Location = new System.Drawing.Point(589, 367);
-            this.OpenBT.Name = "OpenBT";
-            this.OpenBT.Size = new System.Drawing.Size(143, 49);
-            this.OpenBT.TabIndex = 11;
-            this.OpenBT.Text = "Обзор";
-            this.OpenBT.UseVisualStyleBackColor = true;
-            this.OpenBT.Click += new System.EventHandler(this.OpenClick);
-            // 
-            // NextBT
-            // 
-            this.NextBT.Enabled = false;
-            this.NextBT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NextBT.Location = new System.Drawing.Point(836, 367);
-            this.NextBT.Name = "NextBT";
-            this.NextBT.Size = new System.Drawing.Size(143, 49);
-            this.NextBT.TabIndex = 10;
-            this.NextBT.Text = "Дальше";
-            this.NextBT.UseVisualStyleBackColor = true;
-            // 
             // StepOne
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -172,9 +136,6 @@
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.СalculationDGV);
             this.Controls.Add(this.SourceDataDGV);
-            this.Controls.Add(this.ClearBT);
-            this.Controls.Add(this.OpenBT);
-            this.Controls.Add(this.NextBT);
             this.Name = "StepOne";
             this.Size = new System.Drawing.Size(1014, 456);
             ((System.ComponentModel.ISupportInitialize)(this.СalculationDGV)).EndInit();
@@ -196,8 +157,5 @@
         private System.Windows.Forms.DataGridView SourceDataDGV;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.Button ClearBT;
-        private System.Windows.Forms.Button OpenBT;
-        private System.Windows.Forms.Button NextBT;
     }
 }

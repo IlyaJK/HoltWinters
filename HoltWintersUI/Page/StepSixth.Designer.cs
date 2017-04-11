@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.richTextBox12 = new System.Windows.Forms.RichTextBox();
-            this.NextBT5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // richTextBox12
@@ -44,22 +43,11 @@
             this.richTextBox12.TabIndex = 4;
             this.richTextBox12.Text = "График исходных данных (ряд 1) и расчетных значений (ряд 2)";
             // 
-            // NextBT5
-            // 
-            this.NextBT5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NextBT5.Location = new System.Drawing.Point(881, 405);
-            this.NextBT5.Name = "NextBT5";
-            this.NextBT5.Size = new System.Drawing.Size(143, 49);
-            this.NextBT5.TabIndex = 3;
-            this.NextBT5.Text = "Дальше";
-            this.NextBT5.UseVisualStyleBackColor = true;
-            // 
             // StepSixth
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.richTextBox12);
-            this.Controls.Add(this.NextBT5);
             this.Name = "StepSixth";
             this.Size = new System.Drawing.Size(1205, 517);
             this.ResumeLayout(false);
@@ -69,6 +57,5 @@
         #endregion
 
         private System.Windows.Forms.RichTextBox richTextBox12;
-        private System.Windows.Forms.Button NextBT5;
     }
 }

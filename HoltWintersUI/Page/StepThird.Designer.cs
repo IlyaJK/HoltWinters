@@ -30,7 +30,6 @@
         {
             this.richTextBox7 = new System.Windows.Forms.RichTextBox();
             this.richTextBox6 = new System.Windows.Forms.RichTextBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // richTextBox7
@@ -54,23 +53,12 @@
             this.richTextBox6.TabIndex = 5;
             this.richTextBox6.Text = "";
             // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(881, 418);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(143, 49);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Дальше";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // StepThird
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.richTextBox7);
             this.Controls.Add(this.richTextBox6);
-            this.Controls.Add(this.button2);
             this.Name = "StepThird";
             this.Size = new System.Drawing.Size(1152, 536);
             this.ResumeLayout(false);
@@ -81,6 +69,5 @@
 
         private System.Windows.Forms.RichTextBox richTextBox7;
         private System.Windows.Forms.RichTextBox richTextBox6;
-        private System.Windows.Forms.Button button2;
     }
 }
