@@ -5,5 +5,6 @@
         double[,] Data { get; }
 
         bool LoadData();
+        void Clear();
     }
 }

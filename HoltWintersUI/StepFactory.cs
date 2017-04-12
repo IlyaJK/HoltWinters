@@ -1,11 +1,12 @@
-﻿using HoltWintersController.PageController;
+﻿using System.Windows.Forms;
+using HoltWintersController.PageController;
 using HoltWintersUI.Page;
 
 namespace HoltWintersUI
 {
     public class StepFactory
     {
-        public static StepPage GetStap(int k)
+        public static UserControl GetStap(int k)
         {
             switch (k)
             {

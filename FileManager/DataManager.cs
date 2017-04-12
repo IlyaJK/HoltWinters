@@ -19,9 +19,14 @@ namespace HoltWintersModel
         {
             var openFile = new OpenFileDialog { Filter = _fileManager.Filter };
             if (openFile.ShowDialog() != DialogResult.OK) return false;
-            string path = openFile.FileName;
+            var path = openFile.FileName;
             Data = _fileManager.GetData(path);
             return true;
+        }
+
+        public void Clear()
+        {
+            Data = null;
         }
     }
 }

@@ -33,8 +33,8 @@
             this.OpenFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.jnrhsnmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.очиститьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Open = new System.Windows.Forms.ToolStripMenuItem();
+            this.Clear = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +50,6 @@
             // 
             // NextBT
             // 
-            this.NextBT.Enabled = false;
             this.NextBT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.NextBT.Location = new System.Drawing.Point(1061, 395);
             this.NextBT.Name = "NextBT";
@@ -67,25 +66,27 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.jnrhsnmToolStripMenuItem,
-            this.очиститьToolStripMenuItem});
+            this.Open,
+            this.Clear});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1216, 24);
             this.menuStrip1.TabIndex = 7;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // jnrhsnmToolStripMenuItem
+            // Open
             // 
-            this.jnrhsnmToolStripMenuItem.Name = "jnrhsnmToolStripMenuItem";
-            this.jnrhsnmToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
-            this.jnrhsnmToolStripMenuItem.Text = "Открыть";
+            this.Open.Name = "Open";
+            this.Open.Size = new System.Drawing.Size(66, 20);
+            this.Open.Text = "Открыть";
+            this.Open.Click += new System.EventHandler(this.Open_Click);
             // 
-            // очиститьToolStripMenuItem
+            // Clear
             // 
-            this.очиститьToolStripMenuItem.Name = "очиститьToolStripMenuItem";
-            this.очиститьToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
-            this.очиститьToolStripMenuItem.Text = "Очистить";
+            this.Clear.Name = "Clear";
+            this.Clear.Size = new System.Drawing.Size(71, 20);
+            this.Clear.Text = "Очистить";
+            this.Clear.Click += new System.EventHandler(this.Clear_Click);
             // 
             // MainForm
             // 
@@ -111,8 +112,8 @@
         private System.Windows.Forms.OpenFileDialog OpenFileDialog;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem jnrhsnmToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem очиститьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem Open;
+        private System.Windows.Forms.ToolStripMenuItem Clear;
     }
 }
 

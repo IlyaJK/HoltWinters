@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using HoltWintersController;
 
 namespace HoltWintersUI
 {
@@ -13,7 +14,7 @@ namespace HoltWintersUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            Application.Run(new MainForm(new Controller()));
         }
     }
 }

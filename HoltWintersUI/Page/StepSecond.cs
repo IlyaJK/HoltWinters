@@ -2,21 +2,11 @@
 
 namespace HoltWintersUI.Page
 {
-    public partial class StepSecond : StepPage
+    public partial class StepSecond : UserControl
     {
         public StepSecond()
         {
             InitializeComponent();
-        }
-
-        public override void StepLoad()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public override void Clear()
-        {
-            throw new System.NotImplementedException();
         }
     }
 }

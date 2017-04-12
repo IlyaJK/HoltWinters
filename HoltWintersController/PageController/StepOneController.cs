@@ -1,6 +1,4 @@
-﻿using FileManager;
-
-namespace HoltWintersController.PageController
+﻿namespace HoltWintersController.PageController
 {
     public class StepOneController : IStepOneController
     {
