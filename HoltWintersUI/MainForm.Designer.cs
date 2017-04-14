@@ -45,7 +45,7 @@
             this.StepTC.Location = new System.Drawing.Point(-1, 27);
             this.StepTC.Name = "StepTC";
             this.StepTC.SelectedIndex = 0;
-            this.StepTC.Size = new System.Drawing.Size(1046, 473);
+            this.StepTC.Size = new System.Drawing.Size(1046, 469);
             this.StepTC.TabIndex = 0;
             // 
             // NextBT

@@ -7,3 +7,6 @@ D:\Projects\Diplom\Diplom\obj\Debug\Diplom.Properties.Resources.resources
 D:\Projects\Diplom\Diplom\obj\Debug\Diplom.csproj.GenerateResource.Cache
 D:\Projects\Diplom\Diplom\obj\Debug\Diplom.exe
 D:\Projects\Diplom\Diplom\obj\Debug\Diplom.pdb
+D:\Projects\HoltWinters\Diplom\bin\Debug\Diplom.exe.config
+D:\Projects\HoltWinters\Diplom\obj\Debug\Diplom.exe
+D:\Projects\HoltWinters\Diplom\obj\Debug\Diplom.pdb

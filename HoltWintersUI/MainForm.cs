@@ -14,11 +14,13 @@ namespace HoltWintersUI
             InitializeComponent();
             _step = 0;
             _controller = controller;
+            NextBT.Enabled = false;
         }
 
         private void NextBT_Click(object sender, EventArgs e)
         {
             NextStep();
+         
         }
 
         private void NextStep()
@@ -29,11 +31,15 @@ namespace HoltWintersUI
             var tabPage = new TabPage("Шаг" + _step);
             tabPage.Controls.Add(stepPage);
             StepTC.TabPages.Add(tabPage);
+            StepTC.SelectedTab = tabPage;
         }
 
         private void Open_Click(object sender, EventArgs e)
         {
-            _controller.LoadData();
+
+            if (!_controller.LoadData()) return;             
+            NextStep();
+            NextBT.Enabled = true;
         }
 
         private void Clear_Click(object sender, EventArgs e)

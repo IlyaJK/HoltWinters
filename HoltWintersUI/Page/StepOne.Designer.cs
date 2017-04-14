@@ -57,6 +57,8 @@
             // 
             // СalculationDGV
             // 
+            this.СalculationDGV.AllowUserToAddRows = false;
+            this.СalculationDGV.AllowUserToDeleteRows = false;
             this.СalculationDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.СalculationDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column3,
@@ -67,6 +69,7 @@
             this.Column8});
             this.СalculationDGV.Location = new System.Drawing.Point(334, 64);
             this.СalculationDGV.Name = "СalculationDGV";
+            this.СalculationDGV.ReadOnly = true;
             this.СalculationDGV.Size = new System.Drawing.Size(645, 375);
             this.СalculationDGV.TabIndex = 14;
             // 
@@ -74,46 +77,55 @@
             // 
             this.Column3.HeaderText = "i";
             this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
             this.Column3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // Column4
             // 
             this.Column4.HeaderText = "t";
             this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
             this.Column4.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // Column5
             // 
             this.Column5.HeaderText = "Y(t)";
             this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
             this.Column5.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // Column6
             // 
             this.Column6.HeaderText = "t^2";
             this.Column6.Name = "Column6";
+            this.Column6.ReadOnly = true;
             this.Column6.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // Column7
             // 
             this.Column7.HeaderText = "Y(t)^2";
             this.Column7.Name = "Column7";
+            this.Column7.ReadOnly = true;
             this.Column7.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // Column8
             // 
             this.Column8.HeaderText = "t*Y(t)";
             this.Column8.Name = "Column8";
+            this.Column8.ReadOnly = true;
             this.Column8.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // SourceDataDGV
             // 
+            this.SourceDataDGV.AllowUserToAddRows = false;
+            this.SourceDataDGV.AllowUserToDeleteRows = false;
             this.SourceDataDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.SourceDataDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2});
             this.SourceDataDGV.Location = new System.Drawing.Point(24, 64);
             this.SourceDataDGV.Name = "SourceDataDGV";
+            this.SourceDataDGV.ReadOnly = true;
             this.SourceDataDGV.Size = new System.Drawing.Size(243, 375);
             this.SourceDataDGV.TabIndex = 13;
             // 
@@ -121,12 +133,14 @@
             // 
             this.Column1.HeaderText = "t";
             this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
             this.Column1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
             // 
             // Column2
             // 
             this.Column2.HeaderText = "Y(t)";
             this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
             this.Column2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
             // 
             // StepOne

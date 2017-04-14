@@ -1,5 +1,4 @@
 ﻿using HoltWintersModel;
-using HoltWintersModel.FileManager;
 
 namespace HoltWintersController
 {
@@ -21,6 +20,9 @@ namespace HoltWintersController
         public bool LoadData()
         {
             return _data.LoadData();
+            
         }
+
+      
     }
 }

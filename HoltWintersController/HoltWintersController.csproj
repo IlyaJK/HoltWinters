@@ -43,9 +43,11 @@
   <ItemGroup>
     <Compile Include="Controller.cs" />
     <Compile Include="IController.cs" />
+    <Compile Include="PageController\StepOneController\IStepOneController.cs" />
+    <Compile Include="PageController\StepSecondController\IStepSecondController.cs" />
+    <Compile Include="PageController\StepSecondController\StepSecondController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PageController\IStepOneController.cs" />
-    <Compile Include="PageController\StepOneController.cs" />
+    <Compile Include="PageController\StepOneController\StepOneController.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FileManager\HoltWintersModel.csproj">

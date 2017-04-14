@@ -26,3 +26,10 @@ C:\Users\illusionist\Documents\Projects\HoltWinters\HoltWintersController\bin\De
 C:\Users\illusionist\Documents\Projects\HoltWinters\HoltWintersController\bin\Debug\HoltWintersController.pdb
 C:\Users\illusionist\Documents\Projects\HoltWinters\HoltWintersController\bin\Debug\HoltWintersModel.dll
 C:\Users\illusionist\Documents\Projects\HoltWinters\HoltWintersController\bin\Debug\HoltWintersModel.pdb
+D:\Projects\HoltWinters\HoltWintersController\bin\Debug\HoltWintersController.dll
+D:\Projects\HoltWinters\HoltWintersController\bin\Debug\HoltWintersController.pdb
+D:\Projects\HoltWinters\HoltWintersController\bin\Debug\HoltWintersModel.dll
+D:\Projects\HoltWinters\HoltWintersController\bin\Debug\HoltWintersModel.pdb
+D:\Projects\HoltWinters\HoltWintersController\obj\Debug\HoltWintersController.csprojResolveAssemblyReference.cache
+D:\Projects\HoltWinters\HoltWintersController\obj\Debug\HoltWintersController.dll
+D:\Projects\HoltWinters\HoltWintersController\obj\Debug\HoltWintersController.pdb
