@@ -18,15 +18,7 @@ namespace HoltWintersUI.Page
             СalculationDGV.AllowUserToAddRows = false;
             SourceDataDGV.AllowUserToAddRows = false;
             LoadDataGrid();
-           _stepOneController.SetKorni(_stepOneController.Kramer(dataKoreal[2,8], dataKoreal[0,8], dataKoreal[4,8], dataKoreal[0,8], dataKoreal[0,7], dataKoreal[1,8]));
-         //  MessageBox.Show(_stepOneController.GetKorni()[0].ToString() + " ; " +
-          //                 _stepOneController.GetKorni()[1].ToString());
-
-      
-
-
-            _stepOneController.SolveYp();
-           // MessageBox.Show(_stepOneController.GetYp()[7].ToString());
+           
 
         }
 

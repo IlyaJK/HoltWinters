@@ -6,6 +6,7 @@
         double[,] DataKorel { get; set; }
         double[] Korni { get; set; }
         double[] Yp { get; set; }
+        double[] F { get; set; }
 
         bool LoadData();
         void Clear();

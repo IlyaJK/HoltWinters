@@ -40,44 +40,15 @@ namespace HoltWintersController.PageController
             return _data.DataKorel;
         }
 
-        public double[] SolveYp()
-        {
-            _data.Yp = new double[GetDataKorel().GetLength(1) - 1];
-            var korni = _data.Korni;
-            for (var i = 1; i <= _data.Yp.Length; i++)
-            {
-                _data.Yp[i-1] = korni[1]* i + korni[0];
-               
-            }
-            return _data.Yp;
+     
 
-        }
+     
 
-        public double[] GetYp()
-        {
-            return _data.Yp;
-        }
+ 
 
-        public double[] GetKorni()
-        {
-            return _data.Korni;
-        }
+      
 
-        public void SetKorni(double[] korni)
-        {
-            _data.Korni = korni;
-        }
-
-        public double[] Kramer(double a1, double a2, double a3, double a4, double a5, double a6)
-        {
-            double det = a1 * a5 - a2 * a4;
-            double det1 = a3 * a5 - a2 * a6;
-            double det2 = a1 * a6 - a3 * a4;
-            var res = new double[2];
-            res[0] = det2 / det;
-            res[1] = det1 / det;
-            return res;
-        }
+       
 
 
     }

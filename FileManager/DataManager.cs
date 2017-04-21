@@ -10,6 +10,7 @@ namespace HoltWintersModel
         public double[,] DataKorel { get; set; }
         public double[] Korni { get; set; }
         public double[] Yp { get; set; }
+        public double[] F { get; set; }
 
 
         private readonly IFileManager _fileManager;
