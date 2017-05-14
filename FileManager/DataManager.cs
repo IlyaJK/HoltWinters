@@ -1,5 +1,6 @@
 ﻿using System.Windows.Forms;
 using HoltWintersModel.FileManager;
+using System;
 
 namespace HoltWintersModel
 {
@@ -11,6 +12,16 @@ namespace HoltWintersModel
         public double[] Korni { get; set; }
         public double[] Yp { get; set; }
         public double[] F { get; set; }
+        public double[] at { get; set; }
+        public double[] bt { get; set; }
+        public double[] Ft { get; set; }
+        public double[] Yt { get; set; }
+
+        public virtual void Op()
+        {
+
+        }
+
 
 
         private readonly IFileManager _fileManager;

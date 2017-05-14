@@ -11,6 +11,7 @@ namespace HoltWintersController.PageController
         public StepOneController()
         {
             _data = ModelManager.GetData();
+            
         }
 
         public double[,] GetStartData()

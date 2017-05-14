@@ -43,9 +43,13 @@
   <ItemGroup>
     <Compile Include="Controller.cs" />
     <Compile Include="IController.cs" />
+    <Compile Include="PageController\StepFourController\IStepFourController.cs" />
+    <Compile Include="PageController\StepFourController\StepFourController.cs" />
     <Compile Include="PageController\StepOneController\IStepOneController.cs" />
     <Compile Include="PageController\StepSecondController\IStepSecondController.cs" />
     <Compile Include="PageController\StepSecondController\StepSecondController.cs" />
+    <Compile Include="PageController\StepThirdController\IStepThirdController.cs" />
+    <Compile Include="PageController\StepThirdController\StepThirdController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PageController\StepOneController\StepOneController.cs" />
   </ItemGroup>
