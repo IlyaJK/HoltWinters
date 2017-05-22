@@ -16,6 +16,10 @@ namespace HoltWintersModel
         public double[] bt { get; set; }
         public double[] Ft { get; set; }
         public double[] Yt { get; set; }
+        public double[] E { get; set; }
+        public double[] PovTochki { get; set; }
+        public double[] YMinusYtDivy { get; set; }
+
 
         public virtual void Op()
         {

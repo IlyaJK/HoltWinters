@@ -13,6 +13,9 @@ namespace HoltWintersModel
         double[] bt { get; set; }
         double[] Ft { get; set; }
         double[] Yt { get; set; }
+        double[] E { get; set; }
+        double[] PovTochki { get; set; }
+        double[] YMinusYtDivy { get; set; }
 
         bool LoadData();
         void Clear();

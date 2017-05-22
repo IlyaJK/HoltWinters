@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="Controller.cs" />
     <Compile Include="IController.cs" />
+    <Compile Include="PageController\StepFiveController\IStepFiveController.cs" />
+    <Compile Include="PageController\StepFiveController\StepFiveController.cs" />
     <Compile Include="PageController\StepFourController\IStepFourController.cs" />
     <Compile Include="PageController\StepFourController\StepFourController.cs" />
     <Compile Include="PageController\StepOneController\IStepOneController.cs" />
