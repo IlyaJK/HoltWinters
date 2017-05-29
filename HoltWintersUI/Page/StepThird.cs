@@ -15,6 +15,7 @@ namespace HoltWintersUI.Page
             _stepThirdController = stepThirdController;
             SolveData3();
             ZapolnTable();
+            
 
         }
 
@@ -146,6 +147,9 @@ namespace HoltWintersUI.Page
         {
             SolveData3();
             ZapolnTable();
+            MainForm form = button1.Parent.Parent.Parent.Parent as MainForm;
+            form.ChangeCountTabs();
+          
         }
     }
 }

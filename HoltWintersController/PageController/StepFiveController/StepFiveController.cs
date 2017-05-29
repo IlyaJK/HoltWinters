@@ -25,7 +25,8 @@ namespace HoltWintersController.PageController.StepFiveController
             for (int i = 0; i < _data.E.Length; i++)
             {
                 _data.E[i] = _data.Data[1, i] - _data.Yt[i];
-                Sum_E += _data.E[i];
+                _data.Sum_E += _data.E[i];
+                Sum_E = _data.Sum_E;
             }
             return _data.E;
         }
@@ -43,10 +44,11 @@ namespace HoltWintersController.PageController.StepFiveController
                 {
                     _data.PovTochki[i] = (((_data.E[i] < _data.E[i - 1]) && (_data.E[i] < _data.E[i + 1])) ||
                                           ((_data.E[i] > _data.E[i - 1]) && (_data.E[i] > _data.E[i + 1])))? 1 : 0;
-                    Sum_povToch += _data.PovTochki[i];
+                    _data.Sum_povToch += _data.PovTochki[i];
                 }
                 
             }
+            Sum_povToch = _data.Sum_povToch;
             return _data.PovTochki;
         }
 
@@ -54,9 +56,11 @@ namespace HoltWintersController.PageController.StepFiveController
         {
             for (int i = 0; i < _data.Data.GetLength(1); i++)
             {
-                Sum_t += _data.Data[0, i];
-                Sum_y += _data.Data[1, i];
+                _data.Sum_t += _data.Data[0, i];
+                _data.Sum_y += _data.Data[1, i];
             }
+            Sum_t = _data.Sum_t;
+            Sum_y = _data.Sum_y;
             return _data.Data;
         }
 
@@ -66,8 +70,9 @@ namespace HoltWintersController.PageController.StepFiveController
             for (int i = 0; i < _data.YMinusYtDivy.Length; i++)
             {
                 _data.YMinusYtDivy[i] = Math.Abs((_data.Data[1, i] - _data.Yt[i]) / _data.Data[1, i]);
-                Sum_YMinusYtDivy += _data.YMinusYtDivy[i];
+                _data.Sum_YMinusYtDivy += _data.YMinusYtDivy[i];
             }
+            Sum_YMinusYtDivy = _data.Sum_YMinusYtDivy;
             return _data.YMinusYtDivy;
         }
 
@@ -77,8 +82,9 @@ namespace HoltWintersController.PageController.StepFiveController
             for (int i = 0; i < sqrE.Length; i++)
             {
                 sqrE[i] = _data.E[i] * _data.E[i];
-                Sum_sqrE += sqrE[i];
+                _data.Sum_sqrE += sqrE[i];
             }
+            Sum_sqrE = _data.Sum_sqrE;
             return sqrE;
         }
 
@@ -89,9 +95,10 @@ namespace HoltWintersController.PageController.StepFiveController
             for (int i = 1; i < data.Length; i++)
             {
                 data[i] = _data.E[i] - _data.E[i-1];
-             
-                Sum_EtMinusEt_1 += data[i];
+
+                _data.Sum_EtMinusEt_1 += data[i];
             }
+            Sum_EtMinusEt_1 = _data.Sum_EtMinusEt_1;
             return data;
         }
 
@@ -102,8 +109,9 @@ namespace HoltWintersController.PageController.StepFiveController
             for (int i = 1; i < data.Length; i++)
             {
                 data[i] = Math.Pow(_data.E[i] - _data.E[i - 1], 2);
-                Sum_SqrEtMinusEt_1 += data[i];
+                _data.Sum_SqrEtMinusEt_1 += data[i];
             }
+            Sum_SqrEtMinusEt_1 = _data.Sum_SqrEtMinusEt_1;
             return data;
         }
 
@@ -114,12 +122,11 @@ namespace HoltWintersController.PageController.StepFiveController
             for (int i = 1; i < data.Length; i++)
             {
                 data[i] = _data.E[i] * _data.E[i - 1];
-                Sum_EtMultEt_1 += data[i];
+                _data.Sum_EtMultEt_1 += data[i];
             }
+            Sum_EtMultEt_1 = _data.Sum_EtMultEt_1;
             return data;
         }
-
-   
 
         public double Sum_t { get; set; }
         public double Sum_y { get; set; }

@@ -24,5 +24,7 @@ namespace HoltWintersController.PageController.StepThirdController
         double[] GetFt();
         double[] GetYt();
 
+        void Count();
+
     }
 }

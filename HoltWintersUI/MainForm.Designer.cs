@@ -45,7 +45,7 @@
             this.StepTC.Location = new System.Drawing.Point(-1, 27);
             this.StepTC.Name = "StepTC";
             this.StepTC.SelectedIndex = 0;
-            this.StepTC.Size = new System.Drawing.Size(1046, 469);
+            this.StepTC.Size = new System.Drawing.Size(1046, 510);
             this.StepTC.TabIndex = 0;
             // 
             // NextBT
@@ -92,7 +92,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1216, 497);
+            this.ClientSize = new System.Drawing.Size(1216, 537);
             this.Controls.Add(this.StepTC);
             this.Controls.Add(this.NextBT);
             this.Controls.Add(this.menuStrip1);

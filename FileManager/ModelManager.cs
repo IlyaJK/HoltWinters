@@ -1,4 +1,6 @@
-﻿namespace HoltWintersModel
+﻿
+
+namespace HoltWintersModel
 {
     public class ModelManager
     {

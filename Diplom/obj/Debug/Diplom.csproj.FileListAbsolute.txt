@@ -10,3 +10,9 @@ D:\Projects\Diplom\Diplom\obj\Debug\Diplom.pdb
 D:\Projects\HoltWinters\Diplom\bin\Debug\Diplom.exe.config
 D:\Projects\HoltWinters\Diplom\obj\Debug\Diplom.exe
 D:\Projects\HoltWinters\Diplom\obj\Debug\Diplom.pdb
+D:\Projects\HoltWinters\Diplom\bin\Debug\Diplom.exe
+D:\Projects\HoltWinters\Diplom\bin\Debug\Diplom.pdb
+D:\Projects\HoltWinters\Diplom\obj\Debug\Diplom.csprojResolveAssemblyReference.cache
+D:\Projects\HoltWinters\Diplom\obj\Debug\Diplom.Form1.resources
+D:\Projects\HoltWinters\Diplom\obj\Debug\Diplom.Properties.Resources.resources
+D:\Projects\HoltWinters\Diplom\obj\Debug\Diplom.csproj.GenerateResource.Cache

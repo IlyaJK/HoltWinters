@@ -16,15 +16,20 @@ namespace HoltWintersModel
         public double[] bt { get; set; }
         public double[] Ft { get; set; }
         public double[] Yt { get; set; }
+        public double[] YtPrognoz { get; set; }
         public double[] E { get; set; }
         public double[] PovTochki { get; set; }
         public double[] YMinusYtDivy { get; set; }
+        public double Sum_t { get; set; }
+        public double Sum_y { get; set; }
+        public double Sum_E { get; set; }
+        public double Sum_povToch { get; set; }
+        public double Sum_YMinusYtDivy { get; set; }
+        public double Sum_sqrE { get; set; }
+        public double Sum_EtMinusEt_1 { get; set; }
+        public double Sum_SqrEtMinusEt_1 { get; set; }
+        public double Sum_EtMultEt_1 { get; set; }
 
-
-        public virtual void Op()
-        {
-
-        }
 
 
 
@@ -34,6 +39,11 @@ namespace HoltWintersModel
         internal CurrentData(IFileManager fileManager)
         {
             _fileManager = fileManager;
+        }
+
+        public void Count()
+        {
+            
         }
 
         public bool LoadData()
@@ -54,5 +64,7 @@ namespace HoltWintersModel
         {
             Data = null;
         }
+
+   
     }
 }

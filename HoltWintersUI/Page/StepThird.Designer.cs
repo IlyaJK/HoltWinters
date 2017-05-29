@@ -29,14 +29,6 @@
         private void InitializeComponent()
         {
             this.dataGridView_3 = new System.Windows.Forms.DataGridView();
-            this.Column_t = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column_y = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column_yp = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column_F = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column_at = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column_bt = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column_Ft = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column_Yt = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBox_alpha1 = new System.Windows.Forms.TextBox();
             this.textBox_alpha2 = new System.Windows.Forms.TextBox();
             this.textBox_alpha3 = new System.Windows.Forms.TextBox();
@@ -45,6 +37,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.Column_t = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column_y = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column_yp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column_F = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column_at = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column_bt = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column_Ft = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column_Yt = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_3)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -68,54 +68,6 @@
             this.dataGridView_3.ReadOnly = true;
             this.dataGridView_3.Size = new System.Drawing.Size(845, 379);
             this.dataGridView_3.TabIndex = 0;
-            // 
-            // Column_t
-            // 
-            this.Column_t.HeaderText = "t";
-            this.Column_t.Name = "Column_t";
-            this.Column_t.ReadOnly = true;
-            // 
-            // Column_y
-            // 
-            this.Column_y.HeaderText = "y";
-            this.Column_y.Name = "Column_y";
-            this.Column_y.ReadOnly = true;
-            // 
-            // Column_yp
-            // 
-            this.Column_yp.HeaderText = "yрасч";
-            this.Column_yp.Name = "Column_yp";
-            this.Column_yp.ReadOnly = true;
-            // 
-            // Column_F
-            // 
-            this.Column_F.HeaderText = "F (оценки)";
-            this.Column_F.Name = "Column_F";
-            this.Column_F.ReadOnly = true;
-            // 
-            // Column_at
-            // 
-            this.Column_at.HeaderText = "at";
-            this.Column_at.Name = "Column_at";
-            this.Column_at.ReadOnly = true;
-            // 
-            // Column_bt
-            // 
-            this.Column_bt.HeaderText = "bt";
-            this.Column_bt.Name = "Column_bt";
-            this.Column_bt.ReadOnly = true;
-            // 
-            // Column_Ft
-            // 
-            this.Column_Ft.HeaderText = "Ft";
-            this.Column_Ft.Name = "Column_Ft";
-            this.Column_Ft.ReadOnly = true;
-            // 
-            // Column_Yt
-            // 
-            this.Column_Yt.HeaderText = "Y(t)";
-            this.Column_Yt.Name = "Column_Yt";
-            this.Column_Yt.ReadOnly = true;
             // 
             // textBox_alpha1
             // 
@@ -193,6 +145,54 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // Column_t
+            // 
+            this.Column_t.HeaderText = "t";
+            this.Column_t.Name = "Column_t";
+            this.Column_t.ReadOnly = true;
+            // 
+            // Column_y
+            // 
+            this.Column_y.HeaderText = "y(t)";
+            this.Column_y.Name = "Column_y";
+            this.Column_y.ReadOnly = true;
+            // 
+            // Column_yp
+            // 
+            this.Column_yp.HeaderText = "yрасч";
+            this.Column_yp.Name = "Column_yp";
+            this.Column_yp.ReadOnly = true;
+            // 
+            // Column_F
+            // 
+            this.Column_F.HeaderText = "F (оценки)";
+            this.Column_F.Name = "Column_F";
+            this.Column_F.ReadOnly = true;
+            // 
+            // Column_at
+            // 
+            this.Column_at.HeaderText = "at";
+            this.Column_at.Name = "Column_at";
+            this.Column_at.ReadOnly = true;
+            // 
+            // Column_bt
+            // 
+            this.Column_bt.HeaderText = "bt";
+            this.Column_bt.Name = "Column_bt";
+            this.Column_bt.ReadOnly = true;
+            // 
+            // Column_Ft
+            // 
+            this.Column_Ft.HeaderText = "Ft";
+            this.Column_Ft.Name = "Column_Ft";
+            this.Column_Ft.ReadOnly = true;
+            // 
+            // Column_Yt
+            // 
+            this.Column_Yt.HeaderText = "Y(t)";
+            this.Column_Yt.Name = "Column_Yt";
+            this.Column_Yt.ReadOnly = true;
+            // 
             // StepThird
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -219,6 +219,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column_t;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column_y;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column_yp;
@@ -227,6 +228,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column_bt;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column_Ft;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column_Yt;
-        private System.Windows.Forms.Button button1;
     }
 }

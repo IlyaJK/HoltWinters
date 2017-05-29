@@ -5,8 +5,10 @@ namespace HoltWintersUI
 {
     public class StepFactory
     {
+       
         public static UserControl GetStap(int k)
         {
+            
             switch (k)
             {
                 case 1:
