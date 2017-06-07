@@ -32,7 +32,7 @@ namespace HoltWintersController.PageController.StepSevenController
             for (int i = 0; i < 4; i++)
             {
                 _data.YtPrognoz[end+i] = (_data.at[end-1] + _data.bt[end-1] * _data.Data[0, i]) * _data.Ft[end - 4 + i];
-                AnalitYt += "Yп("+(end + i + 1).ToString() + ") = ("+_data.at[end - 1].ToString() +" + " + _data.bt[end - 1].ToString()+" * "+_data.Data[0, i].ToString() + ") * " + _data.Ft[end - 4 + i].ToString() + " = " + _data.YtPrognoz[end + i].ToString() + "\n";
+                AnalitYt += "Yп("+(end + i + 1).ToString() + ") = ("+_data.at[end - 1].ToString() +" + " + _data.bt[end - 1].ToString()+" * "+_data.Data[0, i].ToString() + ") * " + _data.Ft[end - 4 + i].ToString() + " = " + _data.YtPrognoz[end + i].ToString() + "\n\n";
             }
             return _data.YtPrognoz;
         }

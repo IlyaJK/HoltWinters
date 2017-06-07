@@ -45,7 +45,7 @@
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(37, 49);
+            this.chart1.Location = new System.Drawing.Point(41, 38);
             this.chart1.Name = "chart1";
             series1.BorderWidth = 5;
             series1.ChartArea = "ChartArea1";
@@ -84,9 +84,10 @@
             this.chart1.Size = new System.Drawing.Size(963, 300);
             this.chart1.TabIndex = 1;
             this.chart1.Text = "chart1";
-            title1.Font = new System.Drawing.Font("Mistral", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            title1.Font = new System.Drawing.Font("Bernard MT Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             title1.Name = "Title1";
-            title1.Text = "График исходных данных и расчетных значений";
+            title1.Text = "График исходных данных и расчетных значений, а также построение прогнозирования н" +
+    "а 4 сезона (1 год)";
             this.chart1.Titles.Add(title1);
             // 
             // StepEighth

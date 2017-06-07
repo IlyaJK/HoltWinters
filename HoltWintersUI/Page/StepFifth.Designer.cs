@@ -59,7 +59,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(31, 3);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(947, 423);
+            this.dataGridView1.Size = new System.Drawing.Size(943, 419);
             this.dataGridView1.TabIndex = 12;
             // 
             // dataGridViewTextBoxColumn1
@@ -78,14 +78,14 @@
             // 
             // dataGridViewTextBoxColumn3
             // 
-            this.dataGridViewTextBoxColumn3.HeaderText = "y(t)-Y(t)=E";
+            this.dataGridViewTextBoxColumn3.HeaderText = "y(t)-Y(t)=E(t)";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             this.dataGridViewTextBoxColumn3.ReadOnly = true;
             this.dataGridViewTextBoxColumn3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // dataGridViewTextBoxColumn4
             // 
-            this.dataGridViewTextBoxColumn4.HeaderText = "pov. tochki";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Пов. точки";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             this.dataGridViewTextBoxColumn4.ReadOnly = true;
             this.dataGridViewTextBoxColumn4.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
@@ -99,7 +99,7 @@
             // 
             // dataGridViewTextBoxColumn6
             // 
-            this.dataGridViewTextBoxColumn6.HeaderText = "E^2";
+            this.dataGridViewTextBoxColumn6.HeaderText = "(E(t))^2";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             this.dataGridViewTextBoxColumn6.ReadOnly = true;
             this.dataGridViewTextBoxColumn6.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;

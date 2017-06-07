@@ -7,9 +7,9 @@ namespace HoltWintersUI.Page
     {
         private readonly IStepSixController _stepSixController;
 
-        private string _kritdarbinUotson = "Критерий Дарбина-Уотсона\n";
-        private string _rsKrit = "\n\nRS - критерий\n";
-        private string _srErrorAproks = "Средняя ошибка аппроксимации\n";
+        private string _kritdarbinUotson = "Критерий Дарбина-Уотсона:\nd1<d2<d\n1,10<1.37<d\n";
+        private string _rsKrit = "\n\nRS - критерий:\n[2.96 ≤ RS ≤ 4.14]\n";
+        private string _srErrorAproks = "Средняя ошибка аппроксимации\nN=16\nĀ = E(t)/y(t)/N*100%\n";
 
 
 
@@ -42,7 +42,7 @@ namespace HoltWintersUI.Page
 
         private void PrintSrErrorAproks(double srErrorAproks)
         {
-            richTextBox_SrErApr.Text = _srErrorAproks + "A = " + srErrorAproks.ToString()+"%";
+            richTextBox_SrErApr.Text = _srErrorAproks + "Ā = " + srErrorAproks.ToString()+"%";
         }
     }
 }

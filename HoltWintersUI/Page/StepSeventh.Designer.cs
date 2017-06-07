@@ -48,7 +48,7 @@
             this.dataGridView_Prognoz.Location = new System.Drawing.Point(29, 3);
             this.dataGridView_Prognoz.Name = "dataGridView_Prognoz";
             this.dataGridView_Prognoz.ReadOnly = true;
-            this.dataGridView_Prognoz.Size = new System.Drawing.Size(345, 538);
+            this.dataGridView_Prognoz.Size = new System.Drawing.Size(343, 463);
             this.dataGridView_Prognoz.TabIndex = 0;
             // 
             // Column3
@@ -71,10 +71,10 @@
             // 
             // richTextBox_Rasch
             // 
-            this.richTextBox_Rasch.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.richTextBox_Rasch.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold);
             this.richTextBox_Rasch.Location = new System.Drawing.Point(434, 3);
             this.richTextBox_Rasch.Name = "richTextBox_Rasch";
-            this.richTextBox_Rasch.Size = new System.Drawing.Size(493, 228);
+            this.richTextBox_Rasch.Size = new System.Drawing.Size(493, 294);
             this.richTextBox_Rasch.TabIndex = 2;
             this.richTextBox_Rasch.Text = "";
             // 

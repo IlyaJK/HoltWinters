@@ -25,8 +25,16 @@ namespace HoltWintersUI
 
         private void NextStep()
         {
+            if (_step == 7)
+            {
+                NextBT.Enabled = false;
+            }
             var stepPage = StepFactory.GetStap(_step + 1);
-            if (stepPage == null) return;
+            if (stepPage == null)
+            {
+                
+                return;
+            }
             _step++;
             
             var tabPage = new TabPage("Шаг" + _step);
@@ -54,18 +62,19 @@ namespace HoltWintersUI
         {
             _step = 0;
             StepTC.TabPages.Clear();
-            ChangeCountTabs();
     
         }
     
         public void ChangeCountTabs()
         {
+            NextBT.Enabled = true;
             _step = 3;
+
             for (int i = StepTC.TabCount; i > 3; i--)
             {
                 StepTC.TabPages[i-1].Dispose();
             }
-            StepTC.SelectedTab = StepTC.TabPages[2];
+           StepTC.SelectedTab = StepTC.TabPages[2];
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System.Drawing;
+using System.Windows.Forms;
 using HoltWintersController.PageController.StepThirdController;
 
 namespace HoltWintersUI.Page
@@ -7,7 +8,7 @@ namespace HoltWintersUI.Page
     {
 
         private readonly IStepThirdController _stepThirdController;
-
+           
         public StepThird() : this(new StepThirdController()) { }
         public StepThird(IStepThirdController stepThirdController)
         {
@@ -15,13 +16,13 @@ namespace HoltWintersUI.Page
             _stepThirdController = stepThirdController;
             SolveData3();
             ZapolnTable();
-            
 
         }
 
 
         private void ZapolnTable()
         {
+            dataGridView_3.Rows.Clear();
             int count_row = 0;
             double[,] _data = _stepThirdController.GetData();
             int count_column = _data.GetLength(1) / 2;
@@ -87,7 +88,14 @@ namespace HoltWintersUI.Page
             double alpha1 = double.Parse(textBox_alpha1.Text.Replace('.', ','));
             double alpha2 = double.Parse(textBox_alpha2.Text.Replace('.', ','));
             double alpha3 = double.Parse(textBox_alpha3.Text.Replace('.', ','));
-            var a0 = _stepThirdController.GetKorni()[0];
+            if (alpha1 >= 1 || alpha2 >= 1 || alpha3 >= 1 || alpha1 == 0 || alpha2 == 0 || alpha3 == 0)
+            {
+                MessageBox.Show("Коэффициенты должны находиться в интервале [0.1 , 0.9]");
+            
+            return;
+            }
+
+        var a0 = _stepThirdController.GetKorni()[0];
             var b0 = _stepThirdController.GetKorni()[1];
             var Y = _stepThirdController.GetY();
             var F = _stepThirdController.GetF();

@@ -35,22 +35,22 @@
             // richTextBox_Kriterii
             // 
             this.richTextBox_Kriterii.BackColor = System.Drawing.SystemColors.Window;
-            this.richTextBox_Kriterii.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.richTextBox_Kriterii.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold);
             this.richTextBox_Kriterii.Location = new System.Drawing.Point(119, 26);
             this.richTextBox_Kriterii.Name = "richTextBox_Kriterii";
             this.richTextBox_Kriterii.ReadOnly = true;
-            this.richTextBox_Kriterii.Size = new System.Drawing.Size(612, 217);
+            this.richTextBox_Kriterii.Size = new System.Drawing.Size(612, 257);
             this.richTextBox_Kriterii.TabIndex = 1;
             this.richTextBox_Kriterii.Text = "";
             // 
             // richTextBox_SrErApr
             // 
             this.richTextBox_SrErApr.BackColor = System.Drawing.SystemColors.Window;
-            this.richTextBox_SrErApr.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.richTextBox_SrErApr.Location = new System.Drawing.Point(119, 279);
+            this.richTextBox_SrErApr.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold);
+            this.richTextBox_SrErApr.Location = new System.Drawing.Point(119, 329);
             this.richTextBox_SrErApr.Name = "richTextBox_SrErApr";
             this.richTextBox_SrErApr.ReadOnly = true;
-            this.richTextBox_SrErApr.Size = new System.Drawing.Size(612, 89);
+            this.richTextBox_SrErApr.Size = new System.Drawing.Size(612, 112);
             this.richTextBox_SrErApr.TabIndex = 2;
             this.richTextBox_SrErApr.Text = "";
             // 

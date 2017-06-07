@@ -41,11 +41,11 @@
             // richTextBoxKSeason
             // 
             this.richTextBoxKSeason.BackColor = System.Drawing.SystemColors.Window;
-            this.richTextBoxKSeason.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.richTextBoxKSeason.Location = new System.Drawing.Point(73, 251);
+            this.richTextBoxKSeason.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold);
+            this.richTextBoxKSeason.Location = new System.Drawing.Point(73, 259);
             this.richTextBoxKSeason.Name = "richTextBoxKSeason";
             this.richTextBoxKSeason.ReadOnly = true;
-            this.richTextBoxKSeason.Size = new System.Drawing.Size(322, 162);
+            this.richTextBoxKSeason.Size = new System.Drawing.Size(322, 188);
             this.richTextBoxKSeason.TabIndex = 13;
             this.richTextBoxKSeason.Text = "";
             // 
@@ -57,25 +57,25 @@
             this.richTextBox4.Location = new System.Drawing.Point(73, 192);
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.ReadOnly = true;
-            this.richTextBox4.Size = new System.Drawing.Size(322, 53);
+            this.richTextBox4.Size = new System.Drawing.Size(322, 61);
             this.richTextBox4.TabIndex = 12;
-            this.richTextBox4.Text = "Оценки начальных значений коэффициентов сезонности ";
+            this.richTextBox4.Text = "Оценки начальных значений коэффициентов сезонности:";
             // 
             // richTextBox_Korni
             // 
             this.richTextBox_Korni.BackColor = System.Drawing.SystemColors.Window;
-            this.richTextBox_Korni.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.richTextBox_Korni.Location = new System.Drawing.Point(623, 102);
+            this.richTextBox_Korni.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold);
+            this.richTextBox_Korni.Location = new System.Drawing.Point(511, 102);
             this.richTextBox_Korni.Name = "richTextBox_Korni";
             this.richTextBox_Korni.ReadOnly = true;
-            this.richTextBox_Korni.Size = new System.Drawing.Size(272, 70);
+            this.richTextBox_Korni.Size = new System.Drawing.Size(495, 70);
             this.richTextBox_Korni.TabIndex = 11;
             this.richTextBox_Korni.Text = "";
             // 
             // richTextBox_SystYp
             // 
             this.richTextBox_SystYp.BackColor = System.Drawing.SystemColors.Window;
-            this.richTextBox_SystYp.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.richTextBox_SystYp.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold);
             this.richTextBox_SystYp.Location = new System.Drawing.Point(73, 102);
             this.richTextBox_SystYp.Name = "richTextBox_SystYp";
             this.richTextBox_SystYp.ReadOnly = true;
@@ -88,10 +88,10 @@
             this.richTextBox3.BackColor = System.Drawing.SystemColors.Window;
             this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.richTextBox3.Location = new System.Drawing.Point(623, 40);
+            this.richTextBox3.Location = new System.Drawing.Point(511, 40);
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.ReadOnly = true;
-            this.richTextBox3.Size = new System.Drawing.Size(272, 56);
+            this.richTextBox3.Size = new System.Drawing.Size(495, 56);
             this.richTextBox3.TabIndex = 9;
             this.richTextBox3.Text = "По правилу Крамера имеем следующие корни:";
             // 
@@ -115,17 +115,17 @@
             this.richTextBox7.Location = new System.Drawing.Point(511, 192);
             this.richTextBox7.Name = "richTextBox7";
             this.richTextBox7.ReadOnly = true;
-            this.richTextBox7.Size = new System.Drawing.Size(495, 87);
+            this.richTextBox7.Size = new System.Drawing.Size(495, 79);
             this.richTextBox7.TabIndex = 15;
             this.richTextBox7.Text = "Оценим приближенные значения коэффициентов сезонности F(-3), F(-2), F(-1) и F(0) " +
-    "1-4 кварталов для года, предшествующего первому году.";
+    "1-4 кварталов для года, предшествующего первому году:";
             // 
             // richTextBox_CoeffSezon
             // 
-            this.richTextBox_CoeffSezon.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.richTextBox_CoeffSezon.Location = new System.Drawing.Point(551, 285);
+            this.richTextBox_CoeffSezon.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.richTextBox_CoeffSezon.Location = new System.Drawing.Point(511, 285);
             this.richTextBox_CoeffSezon.Name = "richTextBox_CoeffSezon";
-            this.richTextBox_CoeffSezon.Size = new System.Drawing.Size(434, 128);
+            this.richTextBox_CoeffSezon.Size = new System.Drawing.Size(495, 162);
             this.richTextBox_CoeffSezon.TabIndex = 14;
             this.richTextBox_CoeffSezon.Text = "";
             // 

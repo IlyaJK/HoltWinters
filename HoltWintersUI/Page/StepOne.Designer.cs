@@ -70,7 +70,7 @@
             this.СalculationDGV.Location = new System.Drawing.Point(334, 64);
             this.СalculationDGV.Name = "СalculationDGV";
             this.СalculationDGV.ReadOnly = true;
-            this.СalculationDGV.Size = new System.Drawing.Size(645, 221);
+            this.СalculationDGV.Size = new System.Drawing.Size(643, 221);
             this.СalculationDGV.TabIndex = 14;
             // 
             // Column3
