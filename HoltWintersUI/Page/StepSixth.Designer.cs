@@ -39,7 +39,7 @@
             this.richTextBox_Kriterii.Location = new System.Drawing.Point(119, 26);
             this.richTextBox_Kriterii.Name = "richTextBox_Kriterii";
             this.richTextBox_Kriterii.ReadOnly = true;
-            this.richTextBox_Kriterii.Size = new System.Drawing.Size(612, 257);
+            this.richTextBox_Kriterii.Size = new System.Drawing.Size(549, 257);
             this.richTextBox_Kriterii.TabIndex = 1;
             this.richTextBox_Kriterii.Text = "";
             // 
@@ -50,7 +50,7 @@
             this.richTextBox_SrErApr.Location = new System.Drawing.Point(119, 329);
             this.richTextBox_SrErApr.Name = "richTextBox_SrErApr";
             this.richTextBox_SrErApr.ReadOnly = true;
-            this.richTextBox_SrErApr.Size = new System.Drawing.Size(612, 112);
+            this.richTextBox_SrErApr.Size = new System.Drawing.Size(549, 112);
             this.richTextBox_SrErApr.TabIndex = 2;
             this.richTextBox_SrErApr.Text = "";
             // 

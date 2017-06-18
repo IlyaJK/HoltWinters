@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.СalculationDGV = new System.Windows.Forms.DataGridView();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -59,6 +61,14 @@
             // 
             this.СalculationDGV.AllowUserToAddRows = false;
             this.СalculationDGV.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.СalculationDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.СalculationDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.СalculationDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column3,
@@ -67,10 +77,10 @@
             this.Column6,
             this.Column7,
             this.Column8});
-            this.СalculationDGV.Location = new System.Drawing.Point(334, 64);
+            this.СalculationDGV.Location = new System.Drawing.Point(329, 64);
             this.СalculationDGV.Name = "СalculationDGV";
             this.СalculationDGV.ReadOnly = true;
-            this.СalculationDGV.Size = new System.Drawing.Size(643, 221);
+            this.СalculationDGV.Size = new System.Drawing.Size(643, 224);
             this.СalculationDGV.TabIndex = 14;
             // 
             // Column3
@@ -119,6 +129,14 @@
             // 
             this.SourceDataDGV.AllowUserToAddRows = false;
             this.SourceDataDGV.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.SourceDataDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.SourceDataDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.SourceDataDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -126,7 +144,7 @@
             this.SourceDataDGV.Location = new System.Drawing.Point(24, 64);
             this.SourceDataDGV.Name = "SourceDataDGV";
             this.SourceDataDGV.ReadOnly = true;
-            this.SourceDataDGV.Size = new System.Drawing.Size(243, 375);
+            this.SourceDataDGV.Size = new System.Drawing.Size(243, 378);
             this.SourceDataDGV.TabIndex = 13;
             // 
             // Column1
